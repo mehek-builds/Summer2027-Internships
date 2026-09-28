@@ -5,7 +5,7 @@
 // Every listing comes from an employer's own applicant tracking system board,
 // read by the Litos job monitor. Nothing here is typed by hand, so a role that
 // closes on the employer's board drops off on the next run.
-import { readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 
 const API = 'https://api.trylitos.com/jobs/grouped';
 const SITE = 'https://trylitos.com';
@@ -123,23 +123,55 @@ const companies = new Set([...bySection.values()].flat().map(job => job.company_
 const anchor = name => name.toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/ /g, '-');
 const updated = now.toISOString().slice(0, 10);
 
-const sections = [...bySection].filter(([, list]) => list.length).map(([name, list]) => [
+const TABLE_HEAD = ['| Company | Role | Location | Pay | Application | Posted |', '| --- | --- | --- | --- | --- | --- |'];
+const nonEmpty = [...bySection].filter(([, list]) => list.length);
+
+/* Each section also gets its own page with every role, so a search for, say,
+   "summer 2027 finance internships" can land on a page about exactly that. */
+const pagePath = name => `lists/${anchor(name)}.md`;
+const sections = nonEmpty.map(([name, list]) => [
   `## ${name}`,
   '',
-  `${list.length} open role${list.length === 1 ? '' : 's'}${list.length > MAX_ROWS_PER_SECTION ? `, newest ${MAX_ROWS_PER_SECTION} shown` : ''}.`,
+  list.length > MAX_ROWS_PER_SECTION
+    ? `${list.length} open roles; the newest ${MAX_ROWS_PER_SECTION} are below. [See all ${list.length} ${name} internships](${pagePath(name)}).`
+    : `${list.length} open role${list.length === 1 ? '' : 's'}. [Open this list on its own page](${pagePath(name)}).`,
   '',
-  '| Company | Role | Location | Pay | Application | Posted |',
-  '| --- | --- | --- | --- | --- | --- |',
+  ...TABLE_HEAD,
   ...list.slice(0, MAX_ROWS_PER_SECTION).map(row),
   '',
 ].join('\n'));
+
+const litosLink = `[Litos](${SITE}/?${UTM})`;
+await mkdir(new URL('../lists/', import.meta.url), { recursive: true });
+const wanted = new Set(nonEmpty.map(([name]) => `${anchor(name)}.md`));
+for (const file of await readdir(new URL('../lists/', import.meta.url))) {
+  if (!wanted.has(file)) await rm(new URL(`../lists/${file}`, import.meta.url));
+}
+for (const [name, list] of nonEmpty) {
+  const page = [
+    `# Summer 2027 ${name} Internships`,
+    '',
+    `**${list.length} open ${name.toLowerCase()} internships in the US, Canada and remote.** Updated ${updated}.`,
+    '',
+    `Every role comes straight from the employer's own job board, checked every day by ${litosLink}, and drops off once the employer takes it down. **Apply** goes to the employer's application; **Apply with Litos** tailors your resume to that job and fills in the form, and you check everything before it is sent.`,
+    '',
+    `[Back to all Summer 2027 internships](../README.md)`,
+    '',
+    ...TABLE_HEAD,
+    ...list.map(row),
+    '',
+    `Maintained by ${litosLink}. Found a closed role or a mistake? [Open an issue](../../../issues).`,
+    '',
+  ].join('\n');
+  await writeFile(new URL(`../${pagePath(name)}`, import.meta.url), page);
+}
 
 const template = await readFile(new URL('../README.template.md', import.meta.url), 'utf8');
 const readme = template
   .replace('{{TOTAL}}', String(total))
   .replace('{{COMPANIES}}', String(companies))
   .replace('{{UPDATED}}', updated)
-  .replace('{{TOC}}', [...bySection].filter(([, list]) => list.length).map(([name, list]) => `- [${name}](#${anchor(name)}) (${list.length})`).join('\n'))
+  .replace('{{TOC}}', nonEmpty.map(([name, list]) => `- [${name}](#${anchor(name)}) (${list.length}), [full list](${pagePath(name)})`).join('\n'))
   .replace('{{SECTIONS}}', sections.join('\n'));
 await writeFile(new URL('../README.md', import.meta.url), readme);
 console.log(`README.md: ${total} internships at ${companies} companies (from ${all.length} in the feed)`);

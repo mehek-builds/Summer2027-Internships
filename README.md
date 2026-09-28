@@ -17,16 +17,16 @@ Star this repo to keep it handy. It updates itself every morning.
 
 ## Contents
 
-- [Quant and Trading](#quant-and-trading) (20)
-- [Software Engineering](#software-engineering) (90)
-- [Data Science, AI and Machine Learning](#data-science-ai-and-machine-learning) (55)
-- [Hardware and Other Engineering](#hardware-and-other-engineering) (180)
-- [Product and Design](#product-and-design) (12)
-- [Business, Finance and Marketing](#business-finance-and-marketing) (450)
+- [Quant and Trading](#quant-and-trading) (20), [full list](lists/quant-and-trading.md)
+- [Software Engineering](#software-engineering) (90), [full list](lists/software-engineering.md)
+- [Data Science, AI and Machine Learning](#data-science-ai-and-machine-learning) (55), [full list](lists/data-science-ai-and-machine-learning.md)
+- [Hardware and Other Engineering](#hardware-and-other-engineering) (180), [full list](lists/hardware-and-other-engineering.md)
+- [Product and Design](#product-and-design) (12), [full list](lists/product-and-design.md)
+- [Business, Finance and Marketing](#business-finance-and-marketing) (450), [full list](lists/business-finance-and-marketing.md)
 
 ## Quant and Trading
 
-20 open roles.
+20 open roles. [Open this list on its own page](lists/quant-and-trading.md).
 
 | Company | Role | Location | Pay | Application | Posted |
 | --- | --- | --- | --- | --- | --- |
@@ -39,11 +39,11 @@ Star this repo to keep it handy. It updates itself every morning.
 | **Hudson River Trading** | Algorithm Development (Quant Research & Trading) Internship – Summer 2027 | New York, NY, United States |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=wehrtyou&token=7964062">Apply</a> / <a href="https://trylitos.com/start?job=c4fd556f-6084-48be-9132-a797500e996a&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 9d |
 | **Hudson River Trading** | Algorithm Development (Quant Research & Trading) PhD Internship – Summer 2027 | New York, NY, United States |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=wehrtyou&token=8059837">Apply</a> / <a href="https://trylitos.com/start?job=410abe59-df1f-48bc-9316-3b5a6e55dd77&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 9d |
 | **EQT Corporation** | Commodities Trading Intern | Remote |  | <a href="https://job-boards.greenhouse.io/eqtcorporation/jobs/5421186008">Apply</a> / <a href="https://trylitos.com/start?job=e7b05038-9c66-4f19-ab2b-e0ab082bd19e&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 11d |
-| **Point72** | Quantitative Researcher Intern | New York |  | <a href="https://boards.greenhouse.io/point72/jobs/7586061002">Apply</a> / <a href="https://trylitos.com/start?job=fc76f34c-f098-4109-9475-dd7f4efa1753&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 12d |
-| **Point72** | Summer 2027 Quantitative Research Internship | New York |  | <a href="https://boards.greenhouse.io/point72/jobs/7297642002">Apply</a> / <a href="https://trylitos.com/start?job=f4e044ec-2a86-4040-98a2-7d34f74e2437&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 12d |
-| **Point72** | Quantitative Software Developer Intern | New York, London, or Paris |  | <a href="https://boards.greenhouse.io/point72/jobs/7297666002">Apply</a> / <a href="https://trylitos.com/start?job=d3563487-ba3b-4ec3-8d33-f4d16a6f1387&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 12d |
-| **Point72** | Quantitative Research Intern | New York, Seattle |  | <a href="https://boards.greenhouse.io/point72/jobs/7297667002">Apply</a> / <a href="https://trylitos.com/start?job=c90ab4cc-0710-42d2-a0ec-e23e199b5587&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 12d |
-| **Point72** | Quantitative Research Intern (NLP) | New York |  | <a href="https://boards.greenhouse.io/point72/jobs/8018862002">Apply</a> / <a href="https://trylitos.com/start?job=58893448-0e38-4361-96a3-aca1c4ec311a&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 12d |
+| **Point72** | Quantitative Researcher Intern | New York |  | <a href="https://boards.greenhouse.io/point72/jobs/7586061002">Apply</a> / <a href="https://trylitos.com/start?job=fc76f34c-f098-4109-9475-dd7f4efa1753&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 13d |
+| **Point72** | Summer 2027 Quantitative Research Internship | New York |  | <a href="https://boards.greenhouse.io/point72/jobs/7297642002">Apply</a> / <a href="https://trylitos.com/start?job=f4e044ec-2a86-4040-98a2-7d34f74e2437&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 13d |
+| **Point72** | Quantitative Software Developer Intern | New York, London, or Paris |  | <a href="https://boards.greenhouse.io/point72/jobs/7297666002">Apply</a> / <a href="https://trylitos.com/start?job=d3563487-ba3b-4ec3-8d33-f4d16a6f1387&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 13d |
+| **Point72** | Quantitative Research Intern | New York, Seattle |  | <a href="https://boards.greenhouse.io/point72/jobs/7297667002">Apply</a> / <a href="https://trylitos.com/start?job=c90ab4cc-0710-42d2-a0ec-e23e199b5587&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 13d |
+| **Point72** | Quantitative Research Intern (NLP) | New York |  | <a href="https://boards.greenhouse.io/point72/jobs/8018862002">Apply</a> / <a href="https://trylitos.com/start?job=58893448-0e38-4361-96a3-aca1c4ec311a&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 13d |
 | **Seven Research** | Quantitative Researcher - Intern | New York |  | <a href="https://job-boards.greenhouse.io/sevenresearch/jobs/4894946008">Apply</a> / <a href="https://trylitos.com/start?job=a484240a-4bcb-4420-89d8-8bab3560c38d&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 17d |
 | **Jump Trading** | Campus Quantitative Trader (Intern) | Chicago (+1) |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=jumptrading&token=8027922">Apply</a> / <a href="https://trylitos.com/start?job=955b1b19-b747-466e-bfe5-66546a935ed7&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 1mo |
 | **TransMarket Group** | Quantitative Trader Intern | Chicago, Illinois, United States |  | <a href="https://job-boards.greenhouse.io/transmarketgroup/jobs/5151569007">Apply</a> / <a href="https://trylitos.com/start?job=badfb47c-cdf4-472a-9438-62efb352489e&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 1mo |
@@ -53,7 +53,7 @@ Star this repo to keep it handy. It updates itself every morning.
 
 ## Software Engineering
 
-90 open roles.
+90 open roles. [Open this list on its own page](lists/software-engineering.md).
 
 | Company | Role | Location | Pay | Application | Posted |
 | --- | --- | --- | --- | --- | --- |
@@ -150,7 +150,7 @@ Star this repo to keep it handy. It updates itself every morning.
 
 ## Data Science, AI and Machine Learning
 
-55 open roles.
+55 open roles. [Open this list on its own page](lists/data-science-ai-and-machine-learning.md).
 
 | Company | Role | Location | Pay | Application | Posted |
 | --- | --- | --- | --- | --- | --- |
@@ -160,7 +160,7 @@ Star this repo to keep it handy. It updates itself every morning.
 | **Audax Group** | Data Engineer Co-Op - PD | Boston, Massachusetts |  | <a href="https://job-boards.greenhouse.io/audaxgroup/jobs/4722770005">Apply</a> / <a href="https://trylitos.com/start?job=1584e4d6-fe49-4f87-9e05-66b7ac00f337&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 3d |
 | **Audax Group** | Data Engineer CO-OP - PE | Boston, MA |  | <a href="https://job-boards.greenhouse.io/audaxgroup/jobs/4722779005">Apply</a> / <a href="https://trylitos.com/start?job=d005c090-de84-492e-bb71-b2c053ebed14&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 3d |
 | **Neuralink** | Machine Learning Engineer Intern | South San Francisco, California, United States |  | <a href="https://boards.greenhouse.io/neuralink/jobs/6594261003">Apply</a> / <a href="https://trylitos.com/start?job=97ba0178-6175-445c-a516-e3373cea121c&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 3d |
-| **PathAI** | Machine Learning Intern/Co-op | Boston, MA or Remote |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=pathai&token=8843495002">Apply</a> / <a href="https://trylitos.com/start?job=1d4bf8c8-9ebd-4093-a5c9-cf1cfb9c04b7&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 3d |
+| **PathAI** | Machine Learning Intern/Co-op | Boston, MA or Remote |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=pathai&token=8843495002">Apply</a> / <a href="https://trylitos.com/start?job=1d4bf8c8-9ebd-4093-a5c9-cf1cfb9c04b7&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 4d |
 | **Geneva Trading** | PMO Data Engineering Intern | Chicago Office |  | <a href="https://job-boards.greenhouse.io/genevatrading/jobs/5242180007">Apply</a> / <a href="https://trylitos.com/start?job=c78e39ab-0584-4e75-a259-7f2af2fabfa4&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 4d |
 | **Geneva Trading** | AI Engineer Internship - Summer 2027 | Chicago Office |  | <a href="https://job-boards.greenhouse.io/genevatrading/jobs/5240107007">Apply</a> / <a href="https://trylitos.com/start?job=08c01c01-d653-4dd1-b70e-f3c8228ac3ac&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 4d |
 | **Audax Private Equity** | CO-OP, Portfolio Valuation & Analytics | Boston, MA |  | <a href="https://job-boards.greenhouse.io/audaxprivateequity/jobs/4722687005">Apply</a> / <a href="https://trylitos.com/start?job=ca218d77-5cec-42e2-a60f-f37739005d6e&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 4d |
@@ -177,10 +177,10 @@ Star this repo to keep it handy. It updates itself every morning.
 | **EQT Corporation** | Data Engineering Intern | Canonsburg, PA |  | <a href="https://job-boards.greenhouse.io/eqtcorporation/jobs/5422414008">Apply</a> / <a href="https://trylitos.com/start?job=97dc107d-d82d-49be-b33f-188717cc3eb2&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 11d |
 | **Zipline** | Data Analytics Intern (Spring 2027) | South San Francisco, California, USA |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=flyzipline&token=7990420003">Apply</a> / <a href="https://trylitos.com/start?job=8e88282f-728c-4820-8d07-3c602d0b5931&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 11d |
 | **Zipline** | Data Analytics Intern (Summer 2027) | South San Francisco, California, USA |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=flyzipline&token=7990632003">Apply</a> / <a href="https://trylitos.com/start?job=04213d58-5b16-4bb9-95e6-4b2e46e42b09&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 11d |
-| **CoVar** | Machine Learning Internship Summer 2027 | Durham, NC |  | <a href="https://job-boards.greenhouse.io/covar/jobs/5240360007">Apply</a> / <a href="https://trylitos.com/start?job=920c653a-e07c-4a89-ab3f-52d677e8cd28&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 11d |
+| **CoVar** | Machine Learning Internship Summer 2027 | Durham, NC |  | <a href="https://job-boards.greenhouse.io/covar/jobs/5240360007">Apply</a> / <a href="https://trylitos.com/start?job=920c653a-e07c-4a89-ab3f-52d677e8cd28&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 12d |
 | **Gallup** | AI/ML Research Intern - Summer 2027 | San Francisco |  | <a href="https://job-boards.greenhouse.io/gallup/jobs/4395921009">Apply</a> / <a href="https://trylitos.com/start?job=bddd4615-0fe4-4a40-8883-25bee908ae4b&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 12d |
 | **Gallup** | Data Science Intern - Summer 2027 | San Francisco |  | <a href="https://job-boards.greenhouse.io/gallup/jobs/4395491009">Apply</a> / <a href="https://trylitos.com/start?job=290da136-fc96-4bfa-b7d8-632f875aa107&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 12d |
-| **Point72** | Machine Learning Researcher - Intern | New York |  | <a href="https://boards.greenhouse.io/point72/jobs/7302611002">Apply</a> / <a href="https://trylitos.com/start?job=642b15d3-3fcf-456b-90dd-45641cef2abf&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 12d |
+| **Point72** | Machine Learning Researcher - Intern | New York |  | <a href="https://boards.greenhouse.io/point72/jobs/7302611002">Apply</a> / <a href="https://trylitos.com/start?job=642b15d3-3fcf-456b-90dd-45641cef2abf&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 13d |
 | **talentpluto** | AI/ML Engineering Intern | United States |  | <a href="https://apply.workable.com/j/A0CFDD6FBD/apply">Apply</a> / <a href="https://trylitos.com/start?job=c0b9ac1a-8c1a-4e68-91f0-64c77259e447&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 13d |
 | **FIRY** | Co-op, Workforce Analytics | Las Vegas, Nevada, United States |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=firy&token=8167498">Apply</a> / <a href="https://trylitos.com/start?job=877ab7ec-19e5-4b04-8e34-aee4b7f6eeab&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 14d |
 | **Evolver** | Applied Data Science Intern | Palo Alto, CA |  | <a href="https://job-boards.greenhouse.io/evolver/jobs/4254540009">Apply</a> / <a href="https://trylitos.com/start?job=fe7a3844-0389-4d18-ab8f-34abb8ff9831&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 19d |
@@ -212,7 +212,7 @@ Star this repo to keep it handy. It updates itself every morning.
 
 ## Hardware and Other Engineering
 
-180 open roles.
+180 open roles. [Open this list on its own page](lists/hardware-and-other-engineering.md).
 
 | Company | Role | Location | Pay | Application | Posted |
 | --- | --- | --- | --- | --- | --- |
@@ -399,7 +399,7 @@ Star this repo to keep it handy. It updates itself every morning.
 
 ## Product and Design
 
-12 open roles.
+12 open roles. [Open this list on its own page](lists/product-and-design.md).
 
 | Company | Role | Location | Pay | Application | Posted |
 | --- | --- | --- | --- | --- | --- |
@@ -418,7 +418,7 @@ Star this repo to keep it handy. It updates itself every morning.
 
 ## Business, Finance and Marketing
 
-450 open roles, newest 200 shown.
+450 open roles; the newest 200 are below. [See all 450 Business, Finance and Marketing internships](lists/business-finance-and-marketing.md).
 
 | Company | Role | Location | Pay | Application | Posted |
 | --- | --- | --- | --- | --- | --- |
@@ -555,8 +555,8 @@ Star this repo to keep it handy. It updates itself every morning.
 | **Skin Clique** | Marketing & Content Intern | Nashville, TN |  | <a href="https://job-boards.greenhouse.io/skinclique/jobs/4403333009">Apply</a> / <a href="https://trylitos.com/start?job=cfeab557-aa5e-482e-b70a-b49d7788ea00&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 10d |
 | **SageSure** | Actuarial Intern | Cheshire, Connecticut, United States (+3) |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=sagesure&token=4711119006">Apply</a> / <a href="https://trylitos.com/start?job=ecd92106-fb4d-4381-af23-e4ae40743321&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 10d |
 | **HealthCorps** | Teens Make Health Happen Marketing & Communications Internship - Pittsburgh | Pittsburgh, Pennsylvania, United States |  | <a href="https://apply.workable.com/j/A12C2C9994/apply">Apply</a> / <a href="https://trylitos.com/start?job=27c537c9-9bfc-44ba-ad41-b59b6906eb58&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 10d |
-| **Force Factor** | Summer 2027 Sales & Business Development Intern | Boston, MA or Bentonville, AR |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=forcefactor&token=6167281004">Apply</a> / <a href="https://trylitos.com/start?job=1884137e-794b-44ca-a1e0-8fb7a0bf30a8&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 10d |
-| **Force Factor** | Summer 2027 MBA Internship | Boston, MA. or Bentonville, AR. |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=forcefactor&token=6199605004">Apply</a> / <a href="https://trylitos.com/start?job=952ae139-aeed-40f5-b602-1df8f212545a&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 10d |
+| **Force Factor** | Summer 2027 Sales & Business Development Intern | Boston, MA or Bentonville, AR |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=forcefactor&token=6167281004">Apply</a> / <a href="https://trylitos.com/start?job=1884137e-794b-44ca-a1e0-8fb7a0bf30a8&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 11d |
+| **Force Factor** | Summer 2027 MBA Internship | Boston, MA. or Bentonville, AR. |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=forcefactor&token=6199605004">Apply</a> / <a href="https://trylitos.com/start?job=952ae139-aeed-40f5-b602-1df8f212545a&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 11d |
 | **Curi Capital** | Marketing and Communications Intern | Chicago, Illinois |  | <a href="https://job-boards.greenhouse.io/curicapital/jobs/4406182009">Apply</a> / <a href="https://trylitos.com/start?job=521e414f-b694-4f1b-9b0c-5a7aee1f0119&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 11d |
 | **EQT Corporation** | Midstream Operations Technician Intern | Moundsville, WV |  | <a href="https://job-boards.greenhouse.io/eqtcorporation/jobs/5424963008">Apply</a> / <a href="https://trylitos.com/start?job=d5bce6b2-2e3b-4561-a30e-b022a26c76ab&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 11d |
 | **EQT Corporation** | Landman Intern | Remote |  | <a href="https://job-boards.greenhouse.io/eqtcorporation/jobs/5423502008">Apply</a> / <a href="https://trylitos.com/start?job=da621c56-33de-4494-bf9c-23d9381ea978&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 11d |
