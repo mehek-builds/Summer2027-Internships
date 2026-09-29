@@ -24,6 +24,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 01b390a3-cbe1-4c05-95ca-ea8a43d5820a,Coretek Services,AI & Automation Development Intern,workable,us,unstated,2026-09-08T00:00:00.000Z,2026-09-08T17:32:08.423Z,2026-09-29,2026-09-29
 01cb94f3-5ae1-403f-9cb7-6ee891a12894,Die Grenze BV,Stage/BBL Winterswijk Oost,recruitee,non_us,unstated,2024-10-21T10:06:22.000Z,2026-08-31T04:12:20.250Z,2026-09-29,2026-09-29
 01debc8f-1f60-4091-8bb9-605abde89e33,moomoo,Retail Operations Intern,workable,non_us,unstated,2026-04-07T00:00:00.000Z,2026-08-31T20:25:01.743Z,2026-09-29,2026-09-29
+01f3a243-18a0-4cbc-8849-8d80258a4543,Odyssey Hotel Group,Legal Intern,recruitee,non_us,unstated,2026-09-29T13:06:44.000Z,2026-09-29T17:06:29.587Z,2026-09-29,2026-09-29
 01fa81ff-ab06-4833-9b0f-700f7385c82b,Hotel TwentySeven,Stagiair(e) Duty Manager,recruitee,non_us,unstated,2026-09-11T13:24:00.000Z,2026-09-11T21:26:05.571Z,2026-09-29,2026-09-29
 01ff7030-5d45-489c-bbf4-04e5982b9d7d,1GLOBAL,Systems Operations Intern,workable,non_us,unstated,2026-07-23T00:00:00.000Z,2026-08-31T04:04:46.748Z,2026-09-29,2026-09-29
 022911ff-b1df-436e-823f-f5dd0e62dae4,KULT | OLYMP & HADES,Werkstudent (m/w/d) im Verkauf Mode und Bekleidung,recruitee,non_us,unstated,2026-08-26T13:48:43.000Z,2026-08-31T13:37:25.167Z,2026-09-29,2026-09-29
@@ -40,6 +41,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 0379bf33-2f2c-4081-b40c-fff8546cdf1d,Friday Recruitment,Stage of Afstudeerstage ICT,recruitee,non_us,unstated,2026-09-03T16:55:07.000Z,2026-09-03T18:25:13.364Z,2026-09-29,2026-09-29
 03bf5594-39bc-4beb-9ad2-ba5674949e94,Kodiak Solutions,Kodiak Intern Summer 2027,greenhouse,unknown,unstated,2026-09-03T16:45:01.000Z,2026-09-03T19:07:13.009Z,2026-09-29,2026-09-29
 03e1bc0b-4205-4f6f-861e-a1e3890bd5cd,"Peak Retirement Planning, Inc.",Accounting Intern,recruitee,us,unstated,2026-09-08T15:29:36.000Z,2026-09-08T18:18:03.505Z,2026-09-29,2026-09-29
+03e7282c-16e5-4b43-b577-1c27e4c395a5,Ginmon GmbH,Werkstudent Digital Marketing & Content Creation (m/w/d),recruitee,non_us,unstated,2026-09-28T11:22:24.000Z,2026-09-29T14:45:26.601Z,2026-09-29,2026-09-29
 03eb3d06-7601-4654-b762-0118f9b134be,Movares,MBO meewerkstage weg- en waterbouw,recruitee,non_us,unstated,2026-03-11T15:09:28.000Z,2026-08-31T04:28:33.818Z,2026-09-29,2026-09-29
 04038963-3b6c-42c5-98d0-f911ab9b3bda,Energize Colleges,Campus Sustainability & Energy Intern,greenhouse,us,unstated,2026-09-10T05:00:58.000Z,2026-09-19T07:40:08.709Z,2026-09-29,2026-09-29
 04213d58-5b16-4bb9-95e6-4b2e46e42b09,Zipline,Data Analytics Intern (Summer 2027),greenhouse,us,refuses,2026-09-17T17:05:10.000Z,2026-09-19T08:08:31.082Z,2026-09-29,2026-09-29
@@ -84,6 +86,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 08ba8568-07d8-48c8-a201-df193a9d1e50,BillionToOne,Research Associate Intern,greenhouse,us,unstated,2026-09-22T22:24:17.000Z,2026-09-16T13:00:11.689Z,2026-09-29,2026-09-29
 08c01c01-d653-4dd1-b70e-f3c8228ac3ac,Geneva Trading,AI Engineer Internship - Summer 2027,greenhouse,us,unstated,2026-09-24T17:25:39.000Z,2026-09-18T06:40:05.544Z,2026-09-29,2026-09-29
 08ec43ad-045d-465a-9ce0-988b2842f496,EquipmentShare,Intern: eCommerce Marketing,greenhouse,us,unstated,2026-09-28T12:51:43.000Z,2026-09-28T14:02:54.919Z,2026-09-29,2026-09-29
+08f5ad7f-bd01-47c9-9389-6177f170754c,Friday Recruitment,Juridische Afstudeerstage,recruitee,non_us,unstated,2026-09-29T09:30:33.000Z,2026-09-29T14:03:14.139Z,2026-09-29,2026-09-29
 0903d8ea-1917-4b93-97b9-98b129d427c0,Gastronomous Technologies Inc.,Co-Op Full Stack Developer,breezy,unknown,unstated,2026-09-25T19:22:32.875Z,2026-08-31T04:22:55.197Z,2026-09-29,2026-09-29
 090b1716-f2c3-4776-b5d7-736a03e57dc2,Boggi Milano,Merchandising Buying & Planning - stage curriculare,recruitee,non_us,unstated,2026-09-25T12:17:28.000Z,2026-09-26T13:14:44.375Z,2026-09-29,2026-09-29
 094bfce1-fc4e-4cd1-9bea-f07c3fd5c005,CloudCommerce,HR Intern - Recruitment,breezy,non_us,unstated,2026-09-02T03:51:54.025Z,2026-08-31T04:13:39.029Z,2026-09-29,2026-09-29
@@ -465,6 +468,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 2bd33b8c-24bb-4199-81c6-1ead0661db0c,Zipline,Strategic Finance Intern (Spring 2027),greenhouse,us,refuses,2026-09-17T17:05:10.000Z,2026-09-19T08:08:31.082Z,2026-09-29,2026-09-29
 2bded551-ad7c-469a-a3a0-4a4eedcb3727,Kruger NearShore LLC - Rekluti,Pasante Diseño Gráfico,recruitee,non_us,unstated,2026-05-11T16:35:00.000Z,2026-08-31T22:11:41.517Z,2026-09-29,2026-09-29
 2c0ae05d-cf4d-460c-afb8-f9d9f8c8fd96,AT Osborne B.V.,Afstudeeropdracht Prisma,recruitee,non_us,unstated,2026-05-15T10:00:09.000Z,2026-08-31T04:05:46.247Z,2026-09-29,2026-09-29
+2c1ebe7a-f52b-4797-a930-d169662e90e7,The National Milk Producers Federation,Intern for Summer 2027 - Paid Internship,workable,us,unstated,2026-09-25T00:00:00.000Z,2026-09-29T15:03:31.496Z,2026-09-29,2026-09-29
 2c2c1044-f7d9-45cb-8c1d-69122919d4c8,vb&t Groep,Werkstudent Klantenservice Vastgoed,recruitee,non_us,unstated,2026-09-16T13:20:19.000Z,2026-09-18T20:39:30.625Z,2026-09-29,2026-09-29
 2c2febfd-3bf4-41c7-b500-9bce3ad828c1,ASM,Talent Insights Intern (Spring 2027),greenhouse,us,unstated,2026-08-21T11:13:21.000Z,2026-09-16T00:00:02.271Z,2026-09-29,2026-09-29
 2c3abcd4-69ca-4d74-8c01-0c43f35eef13,Emergent Group,"Internship Opportunities - Engineering, Science or Technology",workable,non_us,unstated,2025-12-18T00:00:00.000Z,2026-08-31T04:28:34.886Z,2026-09-29,2026-09-29
@@ -605,6 +609,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 3989c4bd-dc28-4c22-ab97-e99aae5fa09c,Weeztix,Sales Operations Stagiair Event Industry,recruitee,non_us,unstated,2026-05-27T12:52:05.000Z,2026-08-31T21:32:21.242Z,2026-09-29,2026-09-29
 399bcd15-e92a-414a-9b40-3499130b2761,BSI Software,IMS Praktikum (all genders) CH,recruitee,non_us,unstated,2026-08-18T07:28:25.000Z,2026-09-02T16:45:07.397Z,2026-09-29,2026-09-29
 39c15579-1755-4ac7-b4da-95f6766df636,Flying Bisons,UX/UI Design Intern,recruitee,non_us,unstated,2026-05-26T14:21:53.000Z,2026-08-31T04:18:30.609Z,2026-09-29,2026-09-29
+39e582de-1f25-4ff9-b916-a5bf49a81934,Van Metre Companies,Land Development Internship - Summer 2027,greenhouse,us,unstated,2026-09-28T13:24:11.000Z,2026-09-29T14:54:34.082Z,2026-09-29,2026-09-29
 39ef6f3a-f55d-4e09-bfff-7e81ce67612f,Lease a Bike,Stage Communication & Marketing (3),recruitee,non_us,unstated,2026-05-27T09:14:09.000Z,2026-08-31T04:27:14.650Z,2026-09-29,2026-09-29
 39fca1cc-9393-454d-acb9-a5267fe64834,Teleport,Product & Technology - Teleport Malaysia Internship Program 2026,workable,non_us,unstated,2026-06-14T00:00:00.000Z,2026-08-31T21:06:08.989Z,2026-09-29,2026-09-29
 39fe8b69-c049-4670-9121-27ab027e35b2,CFO Insights,Entrepreneur in Residence Intern (Italian speaker) CFO Insights,greenhouse,non_us,unstated,2026-08-28T05:15:24.000Z,2026-09-17T14:33:08.074Z,2026-09-29,2026-09-29
@@ -622,6 +627,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 3af9b20f-d270-4609-a5c0-fe7b7ea16ced,StraitsX,"Software Engineer Intern, Transaction Experience",greenhouse,non_us,unstated,2026-07-24T07:23:14.000Z,2026-09-08T04:58:52.809Z,2026-09-29,2026-09-29
 3b1cc21e-5909-4f8f-bd78-98ca863df9a2,ASM,Manufacturing Engineering Intern (Spring 2027),greenhouse,us,unstated,2026-08-21T11:13:21.000Z,2026-09-16T00:00:02.271Z,2026-09-29,2026-09-29
 3b2cce7a-1dd8-4bf8-ab2a-c4078eba6215,Salzburg Global Seminar Inc.,Library Internship - Cohort 2027,recruitee,non_us,unstated,2026-09-09T09:11:49.000Z,2026-09-11T11:35:21.895Z,2026-09-29,2026-09-29
+3b2f8251-a8f4-49f2-bdfc-3af59f23fe8c,FIRY,"Co-op, Communications",greenhouse,us,unstated,2026-09-28T23:33:53.000Z,2026-09-29T15:12:23.658Z,2026-09-29,2026-09-29
 3b375b86-247e-420f-8b9b-ae0df931bc48,Gérard Bertrand,STAGE - Assistant(e) Comptable,recruitee,non_us,unstated,2026-07-29T08:58:59.000Z,2026-08-31T04:17:19.032Z,2026-09-29,2026-09-29
 3b46c151-028e-4e7c-b2e6-25f0f7c6e9a9,Rystad Energy,Management Consultant Intern - Summer 2027,workable,non_us,unstated,2026-09-11T00:00:00.000Z,2026-09-11T17:20:10.727Z,2026-09-29,2026-09-29
 3b4cb410-380d-4c1e-8cd0-0650edcd1fed,OPUS,Apprentissage - Stage,recruitee,non_us,unstated,2025-10-21T00:20:49.000Z,2026-08-31T04:32:44.938Z,2026-09-29,2026-09-29
@@ -822,6 +828,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 507cba00-a63d-4efa-9e0c-d60d464fe9f0,KULT | OLYMP & HADES,Werkstudent (m/w/d) im Verkauf Mode und Bekleidung,recruitee,non_us,unstated,2026-09-01T14:32:15.000Z,2026-09-01T19:55:15.547Z,2026-09-29,2026-09-29
 50a75d4f-bf11-41f7-aae5-c49bdd82ca01,RF-SMART,SaaS Sales Internship - Summer 2027,greenhouse,us,refuses,2026-09-22T19:39:43.000Z,2026-09-09T02:31:14.792Z,2026-09-29,2026-09-29
 50b0ed7e-f2e0-435b-a020-3266897926a9,Artis Energy Solutions,Energy Efficiency Intern,breezy,us,refuses,2026-05-06T05:16:57.587Z,2026-09-15T05:44:17.426Z,2026-09-29,2026-09-29
+50daa2eb-4347-4194-b9f2-bab2ce1e721a,Innovative Beauty Group,Sales Support Intern,recruitee,non_us,unstated,2026-09-29T11:50:31.000Z,2026-09-29T15:42:11.528Z,2026-09-29,2026-09-29
 50e168b4-2e04-45c1-9e0d-095e9a640376,moomoo,Compliance Intern,workable,non_us,unstated,2026-09-18T00:00:00.000Z,2026-09-19T06:39:21.018Z,2026-09-29,2026-09-29
 5114c159-31f6-4417-8cb8-790bbad337c9,Electra,Supply Chain Co-op,greenhouse,us,unstated,2026-09-02T15:21:04.000Z,2026-09-09T20:48:43.443Z,2026-09-29,2026-09-29
 51542790-7741-41c4-8b21-c40ee0dc88c9,Audax Private Debt,Investor Relations CO-OP,greenhouse,us,unstated,2026-09-24T13:52:58.000Z,2026-09-10T07:31:22.146Z,2026-09-29,2026-09-29
@@ -1000,6 +1007,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 6298999a-edf8-4d9a-a787-d85170e348f7,Vivo Energy,Accounting Intern,workable,unknown,unstated,2026-08-11T00:00:00.000Z,2026-08-31T21:22:56.836Z,2026-09-29,2026-09-29
 629900ca-a486-4035-ad85-0159c71ce507,Teleport,"Intern, Operational Excellence (Tracing)",workable,non_us,unstated,2026-04-09T00:00:00.000Z,2026-08-31T21:06:08.989Z,2026-09-29,2026-09-29
 62a5612c-9583-412f-abc6-ca733237bf41,Intrinsic Development,Construction Management Intern,greenhouse,us,unstated,2026-04-24T21:07:55.000Z,2026-09-20T16:05:18.339Z,2026-09-29,2026-09-29
+62ab3d09-11a7-497a-b785-b8f109684843,Hotel TwentySeven,Stagiair(e) Housekeeping Supervisor,recruitee,non_us,unstated,2026-09-28T13:13:12.000Z,2026-09-29T15:28:04.177Z,2026-09-29,2026-09-29
 62e73ac9-790d-4001-83c2-6a70de2b66f2,Cito,Stageopdracht Onderzoek naar de kwaliteit van AI-oordelen bij schrijfvaardigheid,recruitee,non_us,unstated,2026-07-13T12:40:46.000Z,2026-08-31T04:09:43.494Z,2026-09-29,2026-09-29
 62e9555f-00ea-4dd7-a9f4-7d7035a52c47,Zipline,Technical Program Manager Intern (Summer 2027),greenhouse,us,unstated,2026-09-17T17:05:10.000Z,2026-09-19T08:08:31.082Z,2026-09-29,2026-09-29
 62f46f69-1bb9-4d2c-968f-fc6302c819f1,Benesch,Structural Engineering Co-op 2026,greenhouse,us,unstated,2026-09-15T17:21:57.000Z,2026-09-15T12:10:06.929Z,2026-09-29,2026-09-29
@@ -1109,6 +1117,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 6c3080a4-c69e-4687-b90a-bc2d67323c07,Die Grenze BV,Stage/BBL Heerlen Dr. Kuyperstraat,recruitee,non_us,unstated,2024-10-21T09:10:59.000Z,2026-08-31T04:12:20.250Z,2026-09-29,2026-09-29
 6c508cbe-33d6-4176-9a19-d839f2b0d7d0,LABEYRIE FINE FOODS,Stage - Assistant.e qualité opérationnel,recruitee,non_us,unstated,2026-09-21T12:31:46.000Z,2026-09-22T03:53:57.718Z,2026-09-29,2026-09-29
 6c6865cb-96ee-4d1a-9b86-80e67272da26,"Huawei Technologies Canada Co., Ltd.",Intern Engineer – C++,recruitee,non_us,unstated,2026-05-21T13:34:06.000Z,2026-08-31T04:21:36.768Z,2026-09-29,2026-09-29
+6cb56e50-ee4d-4203-ba12-f9c46d154f58,StepStone Group,2026 - 2027 Private Debt Portfolio and Risk Management Intern,greenhouse,non_us,unstated,2026-09-28T17:13:51.000Z,2026-09-29T14:54:32.335Z,2026-09-29,2026-09-29
 6ce4bc2c-8942-4998-a35d-19c90f56e509,Die Grenze BV,Stage/BBL 't Harde,recruitee,non_us,unstated,2024-10-21T09:04:32.000Z,2026-08-31T04:12:20.250Z,2026-09-29,2026-09-29
 6d0927b9-3430-40b7-9262-34dbfc74ce4b,Third Bridge,"Associate Intern, Client Services- Japanese Speaker (2027 Graduate)",greenhouse,non_us,unstated,2026-07-17T08:41:03.000Z,2026-09-28T15:39:44.022Z,2026-09-29,2026-09-29
 6d19befb-e741-46b6-afc5-886188fd4f19,SOPHiA GENETICS,Junior Algorithm Development Intern,workable,non_us,unstated,2026-09-18T00:00:00.000Z,2026-09-19T06:26:47.029Z,2026-09-29,2026-09-29
@@ -1371,9 +1380,11 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 83fb7051-4d09-4a16-9ab1-276e3c954c16,DRW,Quantitative Research Intern,greenhouse,us,unstated,2026-09-23T16:47:00.000Z,2026-07-31T20:27:09.195Z,2026-09-29,2026-09-29
 8425ffcd-b1eb-4f55-819f-dfdf20433b77,BRL Risk Consulting GmbH & Co. KG,Praktikant Data Science / Data Engineering im Bereich Risk Advisory Services,recruitee,non_us,unstated,2024-09-17T07:57:39.000Z,2026-08-31T04:09:35.753Z,2026-09-29,2026-09-29
 842cdd40-55b9-451d-b4dd-279e3943f14e,Benesch,Civil Internship #1399,greenhouse,us,unstated,2026-09-21T03:00:04.000Z,2026-09-18T13:26:27.414Z,2026-09-29,2026-09-29
+8438c3df-6a54-40be-b566-15c6adab8011,Consigli Construction,Field Operations Co-op (Spring 2027),workable,us,unstated,2026-09-28T00:00:00.000Z,2026-09-29T15:41:07.414Z,2026-09-29,2026-09-29
 8440fd5b-ca77-47d2-a04a-d0d8c7f71ae3,Guidepoint,Business Development Intern (Class of 2028),greenhouse,us,unstated,2026-09-08T13:27:48.000Z,2026-09-19T21:55:23.664Z,2026-09-29,2026-09-29
 845216d0-d685-496c-8a1b-1373425164b2,IK Partners,Off-Cycle Analyst Intern – Paris,recruitee,non_us,unstated,2026-07-30T08:40:34.000Z,2026-09-02T17:29:01.557Z,2026-09-29,2026-09-29
 8458afc2-2e96-45d4-add5-436476cc4908,Liquin,Meewerkstage Maintenance Engineering,recruitee,non_us,unstated,2026-06-17T07:52:32.000Z,2026-09-02T17:29:40.089Z,2026-09-29,2026-09-29
+845d6d27-3164-4e59-bf33-a7d2ce4610ca,Monzo,Associate Software Engineer - Intern,greenhouse,non_us,refuses,2026-09-28T10:36:17.000Z,2026-09-29T14:28:03.484Z,2026-09-29,2026-09-29
 846e341b-8324-4cd9-a439-e7fd166ac657,Solarvest,Energy Engineer Intern,workable,unknown,unstated,2025-02-24T00:00:00.000Z,2026-08-31T20:49:56.751Z,2026-09-29,2026-09-29
 8480499f-57e0-4ed4-b00f-42eb6a010d14,CAELISTIC Ulm GmbH,Werkstudent:in (m/w/d),recruitee,non_us,unstated,2025-10-03T09:56:26.000Z,2026-08-31T04:10:51.678Z,2026-09-29,2026-09-29
 8480f6f3-67bd-4e6d-bca9-fc8b08008329,Die Grenze BV,Stage/BBL Amsterdam,recruitee,non_us,unstated,2026-03-16T08:08:08.000Z,2026-08-31T04:12:20.250Z,2026-09-29,2026-09-29
@@ -1435,6 +1446,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 8b98aa6c-8af4-4ff1-ae93-f571acff8651,OTIV,Internship Engineering,workable,non_us,unstated,2024-10-02T00:00:00.000Z,2026-08-31T21:33:42.695Z,2026-09-29,2026-09-29
 8bce26f3-4755-4939-ba8d-f8b029e4171a,Biggelaar Groep,Leerling Grondwerker,recruitee,non_us,unstated,2025-08-04T07:27:50.000Z,2026-08-31T04:06:57.572Z,2026-09-29,2026-09-29
 8bed678e-4110-4a7c-9543-1facc7ae6bdd,Mission North,PR Intern,greenhouse,us,unstated,2026-08-20T18:56:16.000Z,2026-09-08T00:24:08.466Z,2026-09-29,2026-09-29
+8bf54683-0445-4170-8472-4108b852597d,Townsquare Media,Part-Time Radio & Digital Media Internship – NYS Broadcaster,greenhouse,us,unstated,2026-09-25T14:47:35.000Z,2026-09-29T15:42:49.265Z,2026-09-29,2026-09-29
 8c11e695-af9e-4b1e-a676-31096e3ca7fd,Televic Rail,"THESIS - Optimizing reliability, lifetime and power usage in LED displays",recruitee,non_us,unstated,2026-03-18T09:42:39.000Z,2026-09-02T19:48:40.321Z,2026-09-29,2026-09-29
 8c12c44d-c4d9-4231-a8bd-3d35c18ad5d7,DRW,Software Developer Intern,greenhouse,us,unstated,2026-09-24T20:00:30.000Z,2026-07-31T20:27:09.195Z,2026-09-29,2026-09-29
 8c2468b9-b47b-450a-8bd0-dace97c254fc,Costello Medical,Statistician Intern,workable,us,refuses,2026-05-27T00:00:00.000Z,2026-08-31T04:25:15.274Z,2026-09-29,2026-09-29
@@ -1472,6 +1484,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 8e71894c-e517-445a-80c6-6401645fb99c,talentpluto,Backend Engineering Intern,workable,us,unstated,2026-09-15T00:00:00.000Z,2026-09-18T00:04:43.583Z,2026-09-29,2026-09-29
 8e88282f-728c-4820-8d07-3c602d0b5931,Zipline,Data Analytics Intern (Spring 2027),greenhouse,us,refuses,2026-09-17T17:05:10.000Z,2026-09-19T08:08:31.082Z,2026-09-29,2026-09-29
 8ebe6c37-94ca-4a2f-a180-44cd09d19a6e,NetEase Games,SG Campus Recruitment - General Intern Opportunities,greenhouse,non_us,unstated,2026-09-15T07:01:37.000Z,2026-09-09T02:59:06.107Z,2026-09-29,2026-09-29
+8ed94070-46bb-451a-a6ff-fccf424b32b1,Kevin Kehr,Studentisches Praktikum Finanzberatung & Vertrieb,recruitee,non_us,unstated,2026-09-28T05:45:44.000Z,2026-09-29T15:58:20.138Z,2026-09-29,2026-09-29
 8ee76454-5d28-4dfd-af30-b62689f1ed9d,Viam,Software Engineering Intern (Summer 2027),greenhouse,us,unstated,2026-09-10T20:19:32.000Z,2026-09-09T01:02:16.107Z,2026-09-29,2026-09-29
 8eefaceb-2c37-486d-a29c-34d8238e596f,Bayut | dubizzle,Machine Learning - Intern,workable,non_us,unstated,2026-05-04T00:00:00.000Z,2026-08-31T04:14:35.361Z,2026-09-29,2026-09-29
 8f0834a8-7156-4d0c-8181-64f79021f04f,EBC Group,Receptionist / Administrative Assistant (Internship),workable,non_us,unstated,2026-06-25T00:00:00.000Z,2026-09-19T08:06:20.359Z,2026-09-29,2026-09-29
@@ -1506,6 +1519,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 91cc9165-6f64-4443-91b1-3c76b763600b,Neuralink,IT Systems Administrator Intern,greenhouse,us,unstated,2026-09-25T01:18:21.000Z,2026-09-08T00:24:09.614Z,2026-09-29,2026-09-29
 91d224f2-94d7-44e8-ad5b-02d5c656e398,AMODA,Junior Structural Engineer (Internship),workable,non_us,unstated,2026-08-14T00:00:00.000Z,2026-08-31T04:08:43.557Z,2026-09-29,2026-09-29
 91e652d0-4e9e-4e8f-972a-2b33b1e38466,Astranis,RF Validation Intern (Winter 2027),greenhouse,us,refuses,2026-09-25T22:43:17.000Z,2026-09-25T07:27:18.212Z,2026-09-29,2026-09-29
+91ec1e2c-e525-4f06-9a13-6a4de346d2a1,Kevin Kehr,"Werkstudent (m/w/d) – Finance & Beratung (unternehmerisch, leistungsbasiert)",recruitee,non_us,unstated,2026-09-28T05:41:22.000Z,2026-09-29T15:58:20.138Z,2026-09-29,2026-09-29
 91f9ec18-938d-499d-a110-5363b1ba9279,Cornelissen Aannemingsbedrijf B.V.,Stage,recruitee,non_us,unstated,2024-08-16T09:17:29.000Z,2026-08-31T04:10:55.805Z,2026-09-29,2026-09-29
 920c653a-e07c-4a89-ab3f-52d677e8cd28,CoVar,Machine Learning Internship Summer 2027,greenhouse,us,unstated,2026-09-16T21:48:23.000Z,2026-09-18T01:27:53.715Z,2026-09-29,2026-09-29
 9233511a-40f9-480f-8eec-9f792a5afb8a,The Borgen Project,Political Affairs Internship,breezy,unknown,unstated,2025-09-24T07:10:00.239Z,2026-08-31T21:21:53.110Z,2026-09-29,2026-09-29
@@ -1645,6 +1659,7 @@ id,company,title,ats,country,sponsorship_status,posted_at,litos_first_seen_at,fi
 9cd21830-4d0d-4202-928c-6f9906585662,NTS,Internships / Graduation | NTS Hengelo,recruitee,non_us,unstated,2026-07-16T12:52:02.000Z,2026-08-31T22:34:43.143Z,2026-09-29,2026-09-29
 9cef80e7-31d4-4027-9e7a-44769b284738,Tamatem,Tamatem Internship Program,workable,unknown,unstated,2026-06-18T00:00:00.000Z,2026-08-31T21:05:32.438Z,2026-09-29,2026-09-29
 9cfe5fd4-a4e4-4dca-abe2-2c88c2c29ddc,Noord-Veluws Archief,Stagiair Behoud Noord-Veluws Archief,recruitee,non_us,unstated,2025-12-08T10:35:24.000Z,2026-08-31T04:31:24.148Z,2026-09-29,2026-09-29
+9d2f9e3e-6759-464b-a05f-4d84d41a3d41,Hotel TwentySeven,Stagiair(e) General Manager,recruitee,non_us,unstated,2026-09-28T14:43:51.000Z,2026-09-29T15:28:04.177Z,2026-09-29,2026-09-29
 9d4efec8-cdb3-4469-93ca-4cb4475f8359,Muon Space,Junior Help Desk Intern (Summer 2027),greenhouse,us,unstated,2026-09-23T21:59:55.000Z,2026-09-25T14:05:49.037Z,2026-09-29,2026-09-29
 9d869ace-a0f1-41e4-a8d3-24b5b6ca557a,Celsius,Internal Communications Internship,workable,us,unstated,2026-09-08T00:00:00.000Z,2026-09-09T03:11:49.163Z,2026-09-29,2026-09-29
 9d9c1465-781d-498c-8736-28d6bf6471c5,Normec Foodcare NL,Stagiair(e) Sales Support,recruitee,non_us,unstated,2025-09-05T08:24:03.000Z,2026-08-31T22:34:42.824Z,2026-09-29,2026-09-29
@@ -1764,6 +1779,7 @@ a8f6c508-e326-4bb0-b35c-a26f73285612,Riverside Natural Foods Ltd.,R&D Co-Op (Jan
 a9052e7d-3ad1-45a3-8336-a2c94f1dda46,Fachstelle Mobbing und Belästigung,Praktikum (Hochschulabsolvent:in) Fachstelle Mobbing und Belästigung  100%,recruitee,non_us,unstated,2026-09-23T13:38:16.000Z,2026-09-25T03:56:59.567Z,2026-09-29,2026-09-29
 a9066838-eea3-458b-99bb-8b794d243a83,VitaForst International Management of Forest & Landscape e.K.,"Werkstudent: Strategie, Ausschreibungen & Projektorganisation (m/w/d)",recruitee,non_us,unstated,2026-03-13T17:39:06.000Z,2026-09-02T23:06:01.918Z,2026-09-29,2026-09-29
 a951ad7d-d903-4c0f-b991-1e7857548c2a,HP IQ,"Software Engineering Intern, Product & Developer Productivity  (Summer 2027)",greenhouse,us,unstated,2026-08-31T19:24:03.000Z,2026-09-01T09:13:55.963Z,2026-09-29,2026-09-29
+a954b461-57c7-4b35-b45d-adf15737744c,Shift Technology,"Data Scientist Internship (November, 6 months)",greenhouse,non_us,unstated,2026-09-28T07:47:07.000Z,2026-09-29T14:28:15.505Z,2026-09-29,2026-09-29
 a957e078-bb9c-4d7c-8255-f16a9a9ec217,PRecious Communications Pte. Ltd.,"Intern, Public Relations & Media Intelligence (TH)",recruitee,non_us,unstated,2026-04-01T05:18:44.000Z,2026-08-31T04:31:23.351Z,2026-09-29,2026-09-29
 a98afa6b-cf6c-4853-9b44-379944d1bd97,Calvary Hospital,Pharmacy Intern,workable,us,unstated,2026-07-20T00:00:00.000Z,2026-08-31T04:17:59.904Z,2026-09-29,2026-09-29
 a99af8ee-db20-4954-b851-4ff3e473cf9a,Symphony Communication Services,"Intern, Software Developer",greenhouse,non_us,unstated,2026-09-04T14:38:16.000Z,2026-09-27T20:03:28.448Z,2026-09-29,2026-09-29
@@ -1823,6 +1839,7 @@ ae0860ea-a7cf-4cf7-a253-fa04f5b2f725,Point72,2027 Point72 Academy Investment Ana
 ae1b0d4b-dda2-4177-9953-d4fc480cfe23,Institut Mines-Télécom,Internship in Stretchable Electronics & Optics for Artificial Skin Demonstrators - 4 to 6 months,recruitee,non_us,unstated,2026-09-18T07:48:21.000Z,2026-09-18T10:57:09.545Z,2026-09-29,2026-09-29
 ae1c1496-d5b5-402f-bc3e-304e57bfa652,Pathstone,Summer Advisory Internship,greenhouse,us,refuses,2026-09-21T15:27:45.000Z,2026-09-22T11:59:00.881Z,2026-09-29,2026-09-29
 ae1fd3b0-9792-4d0d-b5a2-0c12c638a199,Zipline,Maps Intern (Spring 2027),greenhouse,us,unstated,2026-09-17T17:05:10.000Z,2026-09-19T08:08:31.082Z,2026-09-29,2026-09-29
+ae3632f5-30c2-4fa2-a093-c631126afa00,Friday Recruitment,Stage ICT Support,recruitee,non_us,unstated,2026-09-29T09:31:59.000Z,2026-09-29T14:03:14.139Z,2026-09-29,2026-09-29
 ae551aa4-b9fb-45ff-afa1-d249b6fadb89,Gallup,Workplace Advisory Consulting Intern — Summer 2027,greenhouse,unknown,refuses,2026-09-08T23:39:07.000Z,2026-09-19T10:26:35.376Z,2026-09-29,2026-09-29
 ae587fc0-7335-492a-9d2f-712f621ceae2,Control Risks,Project Operations Intern,workable,non_us,unstated,2026-09-24T00:00:00.000Z,2026-09-25T05:02:49.383Z,2026-09-29,2026-09-29
 ae5945da-9be3-45ce-be93-b30e5d211d9f,Rush Street Interactive,Product Marketing Internship- Spring 2027,greenhouse,us,unstated,2026-09-21T14:45:59.000Z,2026-09-11T00:24:39.764Z,2026-09-29,2026-09-29
@@ -1837,6 +1854,7 @@ afaad2b9-dbe4-45d8-b1b2-a4ce33110811,GAEV Dental,Stagiair Tandartsassistent,recr
 afb48b46-7eb8-4496-b99b-e2564216fa68,SpaceX,Spring 2027 Civil Engineering Internship,greenhouse,us,unstated,2026-09-01T23:48:33.000Z,2026-08-03T19:52:15.354Z,2026-09-29,2026-09-29
 afcf9c7e-0289-42ec-aa8e-5be91108d632,StraitsX,Software Engineer Intern - Card Issuing Team,greenhouse,non_us,unstated,2026-08-03T14:38:40.000Z,2026-09-08T04:58:52.809Z,2026-09-29,2026-09-29
 afd469b1-6fcb-4bfc-b285-de95515d425f,Scalapay,In-Store Operations intern - bilingual French/Italian (6-months),greenhouse,non_us,unstated,2026-07-29T13:11:29.000Z,2026-09-08T02:41:43.584Z,2026-09-29,2026-09-29
+afda414f-f38e-40dc-a2fb-acf0d87cf221,Hotel TwentySeven,Stagiair(e) Butler,recruitee,non_us,unstated,2026-09-28T14:09:35.000Z,2026-09-29T15:28:04.177Z,2026-09-29,2026-09-29
 afe9e54a-4446-4145-8d53-b0adac34a92e,My Jewellery,Stagiair Groningen,recruitee,non_us,unstated,2026-06-24T13:08:14.000Z,2026-08-31T04:31:26.425Z,2026-09-29,2026-09-29
 affddf28-d66d-44de-8a70-02a1840fde81,Intrepid Asia,Performance Marketing Intern (Shopee/Tiktokshop),workable,non_us,unstated,2026-09-24T00:00:00.000Z,2026-09-26T06:35:47.236Z,2026-09-29,2026-09-29
 b00f03e9-cb90-468b-9c92-27ead04a37d1,TYTAN Technologies GmbH,Governmental & Public Affairs Internship/Working Student -  (f/m/d),recruitee,non_us,unstated,2026-08-14T10:25:48.000Z,2026-08-31T13:37:25.107Z,2026-09-29,2026-09-29
@@ -1868,6 +1886,7 @@ b1e61113-37eb-4ca8-a166-dcc624a5881a,"Huawei Technologies Canada Co., Ltd.","Co-
 b1eca835-ca76-4fde-ba54-ac4364d15f6c,Greenpeace Belgium,Internship Greenpeace Investigations,recruitee,non_us,unstated,2026-09-21T14:53:22.000Z,2026-09-22T02:45:39.760Z,2026-09-29,2026-09-29
 b1fb12a0-0578-4da7-af0f-d20ead71bb9a,Geoprobe Systems®,Pre-Engineering Intern (Summer 2027),workable,us,unstated,2026-09-01T00:00:00.000Z,2026-09-01T19:51:07.818Z,2026-09-29,2026-09-29
 b1ff3d9f-7304-4bd1-a7ef-1ccbc9ade897,Neuralink,"Electrical Engineer Intern, Implant Embedded Systems",greenhouse,us,unstated,2026-09-25T01:18:21.000Z,2026-09-08T00:24:09.614Z,2026-09-29,2026-09-29
+b20ee45f-ada1-4a02-8b1a-e39b878c0c81,Friday Recruitment,Stage Finance,recruitee,non_us,unstated,2026-09-29T09:33:25.000Z,2026-09-29T14:03:14.139Z,2026-09-29,2026-09-29
 b20ee8c1-5a87-45ab-a069-5f4c53a6f778,Nord-Ostsee Automobile,Praktikum im Center Hyundai Neumünster (m/w/d),recruitee,non_us,unstated,2026-07-15T06:29:20.000Z,2026-09-02T17:29:57.069Z,2026-09-29,2026-09-29
 b21568f6-99bb-412c-b89d-728f2ce1d8ca,Astranis,Mechanical Engineer Intern (Summer 2027),greenhouse,us,refuses,2026-09-25T21:56:40.000Z,2026-08-15T06:01:19.580Z,2026-09-29,2026-09-29
 b2281a3b-0c6c-47d0-89a2-f12ea4c0c7ae,VeriCon,Stage bouwkunde,recruitee,non_us,unstated,2026-06-24T09:05:58.000Z,2026-08-31T22:49:41.234Z,2026-09-29,2026-09-29
@@ -2041,6 +2060,7 @@ c0d7ff6c-25f9-4d00-b02c-0fee5544891e,Oceans of Energy B.V.,Internship - Offshore
 c0e1f392-81c2-41ef-bde2-44ed3536dc16,Focus Global Inc.,Content Creator Intern,breezy,unknown,unstated,2026-09-02T08:39:16.252Z,2026-09-02T17:28:25.495Z,2026-09-29,2026-09-29
 c0e787ea-b905-4bb4-8142-1deab0a3747b,Solarvest,Digital Marketing Intern,workable,unknown,unstated,2025-12-18T00:00:00.000Z,2026-08-31T20:49:56.751Z,2026-09-29,2026-09-29
 c104b6dc-01e1-4b1e-9df8-13f54f548843,Funding Societies | Modalku Group,Collections Intern,workable,non_us,unstated,2026-09-18T00:00:00.000Z,2026-09-18T20:01:25.856Z,2026-09-29,2026-09-29
+c11c4f74-2cd3-48f7-b84d-03267d9a5912,Inizio Ignite | Putnam,Summer Associate Consultant (UK) – 2027 Internship Program,greenhouse,non_us,unstated,2026-09-28T17:21:32.000Z,2026-09-29T14:38:19.706Z,2026-09-29,2026-09-29
 c12c8f16-f7f4-43e1-b88d-57f8b1fef726,Omnyacc Accountants & Adviseurs,Stage controlepraktijk,recruitee,non_us,unstated,2026-05-13T11:55:15.000Z,2026-08-31T04:31:26.037Z,2026-09-29,2026-09-29
 c17cdc7b-5478-472a-9dc1-fbeee3fce11d,Knutson Construction,VDC Intern - Summer 2027,breezy,us,unstated,2026-09-03T14:34:28.280Z,2026-09-19T06:55:28.080Z,2026-09-29,2026-09-29
 c1862524-d21e-4a7b-af53-6f0c8a451b0c,COWMANAGER B.V.,Stagiaire Office Assistent (MBO),recruitee,non_us,unstated,2026-05-28T14:19:47.000Z,2026-08-31T04:10:55.418Z,2026-09-29,2026-09-29
@@ -2077,14 +2097,17 @@ c4efd25f-1474-4b65-bbeb-a6eecf242b90,VIRO Group,Afstudeerder Constructie & Bouwk
 c4f6135d-6614-4485-8e14-cbb2d9bc6dd0,MST Groep,"Stageplek (MBO, HBO of WO)",recruitee,non_us,unstated,2024-11-05T09:22:26.000Z,2026-08-31T04:28:38.110Z,2026-09-29,2026-09-29
 c4fd556f-6084-48be-9132-a797500e996a,Hudson River Trading,Algorithm Development (Quant Research & Trading) Internship – Summer 2027,greenhouse,us,unstated,2026-09-19T00:02:16.000Z,2026-09-01T19:49:42.271Z,2026-09-29,2026-09-29
 c5226d24-6caf-43a2-aa42-7a8ab83e690f,Mach Industries,"Summer 2027 Engineering Internship, Mechanical",greenhouse,us,unstated,2026-09-25T18:12:55.000Z,2026-09-26T06:45:00.072Z,2026-09-29,2026-09-29
+c53dde48-1a95-47f0-9cc1-119df2ed06e6,Hotel TwentySeven,Stagiair(e) Boekhouding,recruitee,non_us,unstated,2026-09-28T13:12:39.000Z,2026-09-29T15:28:04.177Z,2026-09-29,2026-09-29
 c546b9dc-2f60-40d9-9023-eae09e05682c,CHR HAUTE SENNE,Stagiaire alternance IT H/F/X,recruitee,non_us,unstated,2026-09-25T10:26:52.000Z,2026-09-26T14:33:06.153Z,2026-09-29,2026-09-29
 c54d6e12-5908-4a4c-9742-eff9a1315d7d,Tippmann Group,2027 Fall Co-Op - Project Design,breezy,us,unstated,2026-09-17T15:52:50.002Z,2026-09-18T07:43:50.187Z,2026-09-29,2026-09-29
 c55d2c49-6fdb-47fc-a0ee-546319fcf6bc,Die Grenze BV,Stage/BBL Dedemsvaart,recruitee,non_us,unstated,2024-10-21T10:09:34.000Z,2026-08-31T04:12:20.250Z,2026-09-29,2026-09-29
 c56ab302-ce60-4001-b3c5-b823aae4561a,Funding Societies | Modalku Group,Data Intern,workable,non_us,unstated,2026-09-22T00:00:00.000Z,2026-09-22T11:30:02.482Z,2026-09-29,2026-09-29
+c5794834-b675-409a-a91a-d134aba0c449,Hotel TwentySeven,Stagiair(e) Duty Manager,recruitee,non_us,unstated,2026-09-28T14:09:03.000Z,2026-09-29T15:28:04.177Z,2026-09-29,2026-09-29
 c57a4ede-c931-4c97-9bb2-a58fbac39901,Pixlr Group,Marketing Communications Intern,workable,unknown,unstated,2026-07-10T00:00:00.000Z,2026-08-31T21:34:01.539Z,2026-09-29,2026-09-29
 c58d7d02-8690-4ae5-a334-77ac47a6d5fb,Symvaro GmbH,Pflichpraktikum und/oder Diplomarbeit,recruitee,non_us,unstated,2026-03-25T08:44:22.000Z,2026-08-31T04:38:07.586Z,2026-09-29,2026-09-29
 c599c878-9c8c-433d-9d04-170cd2e35738,talentpluto,Design Engineering Intern,workable,us,unstated,2026-09-15T00:00:00.000Z,2026-09-18T00:04:43.583Z,2026-09-29,2026-09-29
 c5a3fe5e-56a4-42f4-bf0b-ebcc8712beb3,EquipmentShare,Intern: Fleet Corporate Rentals,greenhouse,us,unstated,2026-09-28T12:49:00.000Z,2026-09-28T14:02:54.919Z,2026-09-29,2026-09-29
+c5c420ad-6bb5-4aeb-a7fd-26e016351c81,Hotel TwentySeven,HR Stagiair(e),recruitee,non_us,unstated,2026-09-28T13:16:20.000Z,2026-09-29T15:28:04.177Z,2026-09-29,2026-09-29
 c5e14915-feba-4851-ac40-28a3db9521b2,NextEnergy BV,CRM Intern,recruitee,non_us,unstated,2026-06-22T07:34:58.000Z,2026-08-31T22:34:41.962Z,2026-09-29,2026-09-29
 c5e55028-8315-4261-9e7b-0a18fb650ac4,gemeente Meierijstad,Stage Human Resource Management,recruitee,non_us,unstated,2026-06-15T08:32:39.000Z,2026-09-02T17:28:41.757Z,2026-09-29,2026-09-29
 c5eb2b3c-a151-4dc5-ade2-a05d4fdd0655,cbs Corporate Business Solutions GmbH,Werkstudent - Agiles Projektmanagement im Bereich E-Invoicing (m/w/d),recruitee,non_us,unstated,2026-07-20T11:36:41.000Z,2026-08-31T04:09:44.416Z,2026-09-29,2026-09-29
@@ -2452,6 +2475,7 @@ e511a9f0-3566-469c-ba0f-a254bcbd8fe9,BACKHAUS SCHRÖER GmbH,Praktikum Fachverkä
 e531f77b-ef6b-48fc-9498-76854747aa0b,moomoo,Administrative & Operations Intern,workable,non_us,unstated,2026-08-05T00:00:00.000Z,2026-08-31T20:25:01.743Z,2026-09-29,2026-09-29
 e5436088-9370-4040-871b-bdcce1346299,AlixPartners,Praktikum im Consulting - Turnaround & Restructuring (m/w/d),greenhouse,non_us,unstated,2026-09-03T08:13:49.000Z,2026-09-15T11:09:16.408Z,2026-09-29,2026-09-29
 e56348df-dd07-4590-b5ad-942f82170d78,SÜDKURIER Medienhaus,Praktikant (m/w/d) im Bereich touristische Medien & Projekte,recruitee,non_us,unstated,2026-03-11T07:41:06.000Z,2026-08-31T04:36:42.505Z,2026-09-29,2026-09-29
+e56a86f3-250e-4b5a-8fd9-2a4212a107e3,Hotel TwentySeven,Stagiair(e) Reserveringen,recruitee,non_us,unstated,2026-09-28T13:12:17.000Z,2026-09-29T15:28:04.177Z,2026-09-29,2026-09-29
 e5915776-b3ef-4ae2-a7eb-bd5702975f67,Bybit,Animator Intern,greenhouse,non_us,unstated,2026-09-11T15:36:20.000Z,2026-09-17T04:25:43.717Z,2026-09-29,2026-09-29
 e5979d8b-635c-475e-8944-03db05410bf4,LABEYRIE FINE FOODS,"Stage - Assistant.e HSE (Hygiène, Sécurité et Environnement) H/F",recruitee,non_us,unstated,2026-09-18T12:44:02.000Z,2026-09-19T07:42:42.262Z,2026-09-29,2026-09-29
 e5a3b2a8-99c1-47a2-8c75-fee65a6efd01,Cello,Stagiair gehandicaptenzorg (hbo),recruitee,non_us,unstated,2026-03-18T15:25:17.000Z,2026-08-31T04:09:41.112Z,2026-09-29,2026-09-29
@@ -2521,12 +2545,14 @@ eca39456-f6bd-4a0d-9de4-54e11b85b3dc,SKYTREE,Stagiair(e) Business Development,re
 ecd92106-fb4d-4381-af23-e4ae40743321,SageSure,Actuarial Intern,greenhouse,us,unstated,2026-09-18T15:09:02.000Z,2026-09-11T18:59:15.897Z,2026-09-29,2026-09-29
 ecf74729-50ab-4721-bbd3-648146af82c6,Mediengruppe Pressedruck,Praktikanten (w/m/d) Radiojournalismus,recruitee,non_us,unstated,2025-07-08T12:18:57.000Z,2026-08-31T04:32:43.521Z,2026-09-29,2026-09-29
 ecfefa12-5a32-40bf-a844-b47fd1d8cdbf,forward earth,"Founder's Associate Intern - Growth, Sales & AI",recruitee,non_us,unstated,2026-07-21T12:36:02.000Z,2026-08-31T04:18:31.966Z,2026-09-29,2026-09-29
+ed067958-15ad-4cb5-9662-dd0e9c570e6b,Mental Care Group,Stage Orthopedagogiek / Psychologie - Zoetermeer,recruitee,non_us,unstated,2026-09-29T08:33:23.000Z,2026-09-29T17:06:46.251Z,2026-09-29,2026-09-29
 ed12ad97-810e-49de-8ede-80b1a12b5e21,"Huawei Technologies Canada Co., Ltd.",Intern Researcher - AI/ML Technology Insight and Planning,recruitee,non_us,unstated,2026-06-15T18:14:03.000Z,2026-08-31T04:21:36.768Z,2026-09-29,2026-09-29
 ed1ddc48-00b2-4d5c-b2f2-3e1ceea60d8b,Jump Trading,Campus Quantitative Researcher (M1/M2 Intern),greenhouse,non_us,unstated,2026-08-28T10:41:48.000Z,2026-09-01T19:49:42.704Z,2026-09-29,2026-09-29
 ed681a40-fc9d-448b-9bf6-872865da9089,Gallup,IT Help Desk/Technology Support Specialist Intern — Summer 2027,greenhouse,unknown,refuses,2026-09-16T19:07:57.000Z,2026-09-19T10:26:35.376Z,2026-09-29,2026-09-29
 ed77ea82-b8b1-4307-a41f-92d928dffb2d,Vivium,VA Zorgprofessional+ Verpleegkundige,recruitee,non_us,unstated,2024-03-05T16:00:52.000Z,2026-08-31T13:36:00.478Z,2026-09-29,2026-09-29
 edbfdf51-1411-4ebf-a784-1ecb55522385,Perry Homes,"2027 Summer Construction Management Internship - Austin, TX",workable,us,unstated,2026-09-16T00:00:00.000Z,2026-09-17T20:34:23.088Z,2026-09-29,2026-09-29
 eddd33ee-d332-4817-8034-ac1255b9dbb1,Ballast Nedam,Stage Onderzoek Funderingen Wegenbouw,recruitee,non_us,unstated,2026-03-26T12:25:39.000Z,2026-08-31T04:07:03.836Z,2026-09-29,2026-09-29
+edf23e24-2201-4469-a94a-79f29187534d,Monzo,Associate Data Scientist - Intern,greenhouse,non_us,refuses,2026-09-28T09:41:09.000Z,2026-09-29T14:28:03.484Z,2026-09-29,2026-09-29
 edfa666a-3dc6-4a60-80af-1dc8025871bc,Quandela,Internship: Experimental Scientist junior - optics & electronics (H2/2026),workable,non_us,unstated,2026-05-11T00:00:00.000Z,2026-08-31T20:45:08.144Z,2026-09-29,2026-09-29
 ee2173f0-82f6-452f-bc26-8406d7609029,mylo,Employer Branding Intern,workable,non_us,unstated,2026-09-22T00:00:00.000Z,2026-09-24T05:04:49.315Z,2026-09-29,2026-09-29
 ee452cf7-254a-402f-9142-cf508cef3f24,SpaceX,Summer 2027 Silicon Engineering Internship/Co-op,greenhouse,us,unstated,2026-09-01T23:48:33.000Z,2026-08-03T19:52:15.354Z,2026-09-29,2026-09-29
@@ -2579,6 +2605,7 @@ f3280c40-2774-46df-9613-75cae7e43ecc,DoorDash Canada,"Software Engineer, Intern 
 f3527e14-44cd-45a8-8172-326bf655b07e,Freiheit Media GmbH,Werkstudent Content Creation & Social Media (m/w/d),recruitee,non_us,unstated,2026-09-24T09:15:59.000Z,2026-09-25T04:13:23.065Z,2026-09-29,2026-09-29
 f36d12d2-155b-4f61-805d-ecdae1162fa6,Novo Nordisk Foundation,Internship Global & Public Health,workable,non_us,unstated,2026-09-14T00:00:00.000Z,2026-09-14T18:24:18.723Z,2026-09-29,2026-09-29
 f3d880d5-5200-43f9-b8a9-d1f2a7c5a044,benuta GmbH,Aushilfe im Outlet als Midijobber oder Werkstudent (m/w/d),recruitee,non_us,unstated,2026-08-27T12:17:54.000Z,2026-08-31T04:08:21.237Z,2026-09-29,2026-09-29
+f3f79917-2438-42eb-8822-542fac067a34,Costello Medical,Graphic Design Intern,workable,non_us,refuses,2026-09-25T00:00:00.000Z,2026-09-29T15:50:01.442Z,2026-09-29,2026-09-29
 f3fddb84-69c7-43c7-9910-b4d8d99f9a1b,My Jewellery,Werkstudent Berlin (m/w/d),recruitee,non_us,unstated,2026-09-17T15:19:57.000Z,2026-09-18T13:24:59.803Z,2026-09-29,2026-09-29
 f4210a97-effc-4ae3-bfb5-1e67ef3866f8,Matt Sleeps,Stagiair Creative Content - september '26 - januari '27,recruitee,non_us,unstated,2026-07-06T10:18:09.000Z,2026-08-31T04:28:35.096Z,2026-09-29,2026-09-29
 f43f6bae-2a94-46e2-888e-c2bc37124ecc,Solarvest,Project Intern,workable,unknown,unstated,2026-05-26T00:00:00.000Z,2026-08-31T20:49:56.751Z,2026-09-29,2026-09-29
@@ -2663,6 +2690,7 @@ fb96c3b3-d083-454b-9d82-02046f7ae233,Tessera Labs,"Product Manager, Intern",ashb
 fbacd0eb-81df-4ee2-ade8-95baf39dce01,moomoo,Unpaid - Integrated Marketing & Business Development Intern,workable,us,unstated,2026-09-08T00:00:00.000Z,2026-09-09T02:01:22.938Z,2026-09-29,2026-09-29
 fbb6f2dc-57c3-4e9c-a191-c42947f59181,Retail Insights,Global Internship Program (French speaker) Retail Insights,greenhouse,non_us,unstated,2026-08-28T05:15:21.000Z,2026-09-08T02:41:43.604Z,2026-09-29,2026-09-29
 fbcde46c-8307-40d6-9fd0-9d9a760d8b24,DoorDash USA,"Product Design, Intern (Summer 2027)",greenhouse,us,unstated,2026-09-28T14:02:49.000Z,2026-09-15T05:05:14.371Z,2026-09-29,2026-09-29
+fbdec8d0-1ee9-411b-b532-cfef6301d10f,Friday Recruitment,Afstudeerstage Finance en Control,recruitee,non_us,unstated,2026-09-29T09:29:07.000Z,2026-09-29T14:03:14.139Z,2026-09-29,2026-09-29
 fc167506-dd50-44c3-ba96-fc1cd5157c4c,Andgo Systems,People Ops Intern,greenhouse,non_us,unstated,2026-09-21T19:45:19.000Z,2026-09-22T02:32:15.830Z,2026-09-29,2026-09-29
 fc19da8d-e00b-4144-8395-f4f86214a95f,Huiskes Kokkeler,Stagiair(e) KCC,recruitee,non_us,unstated,2026-04-22T09:23:05.000Z,2026-08-31T13:37:20.852Z,2026-09-29,2026-09-29
 fc20318e-01cf-47ed-ac7b-b360d92a4f5b,Betsson Group,HR & Office Intern,greenhouse,non_us,unstated,2026-09-11T14:42:40.000Z,2026-09-09T22:41:11.160Z,2026-09-29,2026-09-29
