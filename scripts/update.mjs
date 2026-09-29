@@ -98,7 +98,11 @@ function locationLabel(locations) {
 function row(job) {
   const apply = `<a href="${job.apply_url}">Apply</a>`;
   const litos = `<a href="${SITE}/start?job=${encodeURIComponent(job.id)}&${UTM}">Apply with Litos</a>`;
-  return `| **${cell(job.company_name)}** | ${cell(job.title)} | ${locationLabel(job.locations)} | ${payLabel(job)} | ${apply} / ${litos} | ${ageLabel(job.posted_at)} |`;
+  /* The role links to its page on trylitos.com: pay, location, the employer's
+     application and the sponsorship record, and a page search engines can
+     index. Apply with Litos stays one click from starting. */
+  const role = `<a href="${SITE}/job/${encodeURIComponent(job.id)}?${UTM}">${cell(job.title)}</a>`;
+  return `| **${cell(job.company_name)}** | ${role} | ${locationLabel(job.locations)} | ${payLabel(job)} | ${apply} / ${litos} | ${ageLabel(job.posted_at)} |`;
 }
 
 /* ---------- build ---------- */
