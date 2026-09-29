@@ -1,6 +1,6 @@
 # Summer 2027 Product and Design Internships
 
-**12 open product and design internships in the US, Canada and remote.** Updated 2026-09-28.
+**12 open product and design internships in the US, Canada and remote.** Updated 2026-09-29.
 
 Every role comes straight from the employer's own job board, checked every day by [Litos](https://trylitos.com/?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027), and drops off once the employer takes it down. **Apply** goes to the employer's application; **Apply with Litos** tailors your resume to that job and fills in the form, and you check everything before it is sent.
 
@@ -17,7 +17,7 @@ Every role comes straight from the employer's own job board, checked every day b
 | **Tippmann Group** | 2027 Fall Co-Op - Project Design | Fort Wayne, IN |  | <a href="https://tippmann-group.breezy.hr/p/dba9ad144aac-2027-fall-co-op-project-design">Apply</a> / <a href="https://trylitos.com/start?job=c54d6e12-5908-4a4c-9742-eff9a1315d7d&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 11d |
 | **OneEthos** | Product Management Intern (Fall 2026) | United States - Remote |  | <a href="https://job-boards.greenhouse.io/oneethos/jobs/4313632009">Apply</a> / <a href="https://trylitos.com/start?job=acf2dead-33a2-49c5-b472-e4cbdc9a3706&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 18d |
 | **Force Factor** | Summer 2027 Digital Graphic Design Intern | Boston, MA or Bentonville, AR |  | <a href="https://job-boards.greenhouse.io/embed/job_app?for=forcefactor&token=6165087004">Apply</a> / <a href="https://trylitos.com/start?job=deba670d-340a-4f20-8ea5-736071d6610f&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 19d |
-| **LV Collective** | Interior Design Intern | Austin, Texas, United States |  | <a href="https://apply.workable.com/j/F2CC90CCC7/apply">Apply</a> / <a href="https://trylitos.com/start?job=9520b6d0-3f43-40dd-b46e-cb02210d25f3&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 26d |
+| **LV Collective** | Interior Design Intern | Austin, Texas, United States |  | <a href="https://apply.workable.com/j/F2CC90CCC7/apply">Apply</a> / <a href="https://trylitos.com/start?job=9520b6d0-3f43-40dd-b46e-cb02210d25f3&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 27d |
 | **Kravet LLC** | Lee Jofa Textile Design Internship | New York, United States |  | <a href="https://kravet.recruitee.com/o/lee-jofa-textile-design-internship/c/new">Apply</a> / <a href="https://trylitos.com/start?job=2f80173c-87cf-4614-a4ac-27173921018e&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 1mo |
 | **Bauer Entertainment Marketing** | Spring 2027 Graphic Design Internship | Nashville, TN |  | <a href="https://bauer-entertainment-marketing.breezy.hr/p/340bf9decdb3-spring-2027-graphic-design-internship">Apply</a> / <a href="https://trylitos.com/start?job=ca70a978-c60e-486c-bbe8-32a1d830c818&utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Apply with Litos</a> | 3mo |
 
