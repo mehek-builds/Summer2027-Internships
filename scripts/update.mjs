@@ -9,7 +9,13 @@ import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 
 const API = 'https://api.trylitos.com/jobs/grouped';
 const SITE = 'https://trylitos.com';
-const UTM = 'utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027';
+/* Every link back to trylitos.com says which list sent the visitor: source github, medium list,
+   campaign this repository's name. A row's links also name the section it sits in (utm_content),
+   so sign-ups can be counted per field. The site keeps these as the visit's first touch and stores
+   them with the account it creates (role-quick-website lib/entry-source.ts). */
+const LIST_NAME = 'summer2027-internships';
+const UTM = `utm_source=github&utm_medium=list&utm_campaign=${LIST_NAME}`;
+const utmFor = section => `${UTM}&utm_content=${anchor(section)}`;
 const MAX_AGE_DAYS = 120;
 const MAX_ROWS_PER_SECTION = 200;
 const now = new Date();
@@ -24,11 +30,20 @@ async function fetchAll() {
   for (let offset = 0; offset < 10_000; offset += 100) {
     const url = `${API}?employment_type=Internship&limit=100&offset=${offset}`;
     let body;
+    /* The API rate limits per address, and a full read is about 100 pages: every run from
+       2026-10-03 to 2026-10-06 died on a 429 near offset 9000 after three quick retries, so the
+       list stopped updating. A 429 now waits as long as the API asks (Retry-After), or a backoff
+       that grows to a minute, for up to six attempts. */
     for (let attempt = 1; ; attempt++) {
       const response = await fetch(url, { headers: { Accept: 'application/json' } });
       if (response.ok) { body = await response.json(); break; }
-      if (attempt === 3) throw new Error(`${url} returned ${response.status}`);
-      await new Promise(resolve => setTimeout(resolve, 2000 * attempt));
+      const limit = response.status === 429 ? 6 : 3;
+      if (attempt >= limit) throw new Error(`${url} returned ${response.status}`);
+      const retryAfter = Number(response.headers.get('retry-after'));
+      const wait = response.status === 429
+        ? (Number.isFinite(retryAfter) && retryAfter > 0 ? Math.min(retryAfter, 120) * 1000 : Math.min(60_000, 5000 * 2 ** (attempt - 1)))
+        : 2000 * attempt;
+      await new Promise(resolve => setTimeout(resolve, wait));
     }
     jobs.push(...body.jobs);
     if (!body.has_more) break;
@@ -95,13 +110,14 @@ function locationLabel(locations) {
   return shown.length > 1 ? `${first} (+${shown.length - 1})` : first;
 }
 
-function row(job) {
+function row(job, section) {
+  const utm = utmFor(section);
   const apply = `<a href="${job.apply_url}">Apply</a>`;
-  const litos = `<a href="${SITE}/start?job=${encodeURIComponent(job.id)}&${UTM}">Apply with Litos</a>`;
+  const litos = `<a href="${SITE}/start?job=${encodeURIComponent(job.id)}&${utm}">Apply with Litos</a>`;
   /* The role links to its page on trylitos.com: pay, location, the employer's
      application and the sponsorship record, and a page search engines can
      index. Apply with Litos stays one click from starting. */
-  const role = `<a href="${SITE}/job/${encodeURIComponent(job.id)}?${UTM}">${cell(job.title)}</a>`;
+  const role = `<a href="${SITE}/job/${encodeURIComponent(job.id)}?${utm}">${cell(job.title)}</a>`;
   return `| **${cell(job.company_name)}** | ${role} | ${locationLabel(job.locations)} | ${payLabel(job)} | ${apply} / ${litos} | ${ageLabel(job.posted_at)} |`;
 }
 
@@ -141,7 +157,7 @@ const sections = nonEmpty.map(([name, list]) => [
     : `${list.length} open role${list.length === 1 ? '' : 's'}. [Open this list on its own page](${pagePath(name)}).`,
   '',
   ...TABLE_HEAD,
-  ...list.slice(0, MAX_ROWS_PER_SECTION).map(row),
+  ...list.slice(0, MAX_ROWS_PER_SECTION).map(job => row(job, name)),
   '',
 ].join('\n'));
 
@@ -162,7 +178,7 @@ for (const [name, list] of nonEmpty) {
     `[Back to all Summer 2027 internships](../README.md)`,
     '',
     ...TABLE_HEAD,
-    ...list.map(row),
+    ...list.map(job => row(job, name)),
     '',
     `Maintained by ${litosLink}. Found a closed role or a mistake? [Open an issue](../../../issues).`,
     '',
@@ -176,6 +192,7 @@ const readme = template
   .replace('{{COMPANIES}}', String(companies))
   .replace('{{UPDATED}}', updated)
   .replace('{{TOC}}', nonEmpty.map(([name, list]) => `- [${name}](#${anchor(name)}) (${list.length}), [full list](${pagePath(name)})`).join('\n'))
-  .replace('{{SECTIONS}}', sections.join('\n'));
+  .replace('{{SECTIONS}}', sections.join('\n'))
+  .replaceAll('{{UTM}}', UTM);
 await writeFile(new URL('../README.md', import.meta.url), readme);
 console.log(`README.md: ${total} internships at ${companies} companies (from ${all.length} in the feed)`);
