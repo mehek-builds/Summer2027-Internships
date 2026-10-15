@@ -67,7 +67,7 @@ const SECTIONS = [
 
 /* ---------- formatting ---------- */
 
-const cell = text => String(text ?? '').replace(/\|/g, '/').replace(/\s+/g, ' ').replace(/\u2014/g, '-').trim();
+const cell = text => String(text ?? '').replace(/\|/g, '/').replace(/\s+/g, ' ').replace(/\s*[\u2013\u2014]\s*/g, ' - ').trim();
 
 function ageLabel(iso) {
   if (!iso) return '';
