@@ -96,13 +96,11 @@ function locationLabel(locations) {
 }
 
 function row(job) {
-  const apply = `<a href="${job.apply_url}">Apply</a>`;
-  const litos = `<a href="${SITE}/start?job=${encodeURIComponent(job.id)}&${UTM}">Apply with Litos</a>`;
   /* The role links to its page on trylitos.com: pay, location, the employer's
      application and the sponsorship record, and a page search engines can
-     index. Apply with Litos stays one click from starting. */
+     index. No separate apply column (Mehek, 2026-10-15). */
   const role = `<a href="${SITE}/job/${encodeURIComponent(job.id)}?${UTM}">${cell(job.title)}</a>`;
-  return `| **${cell(job.company_name)}** | ${role} | ${locationLabel(job.locations)} | ${payLabel(job)} | ${apply} / ${litos} | ${ageLabel(job.posted_at)} |`;
+  return `| **${cell(job.company_name)}** | ${role} | ${locationLabel(job.locations)} | ${payLabel(job)} | ${ageLabel(job.posted_at)} |`;
 }
 
 /* ---------- build ---------- */
@@ -127,7 +125,7 @@ const companies = new Set([...bySection.values()].flat().map(job => job.company_
 const anchor = name => name.toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/ /g, '-');
 const updated = now.toISOString().slice(0, 10);
 
-const TABLE_HEAD = ['| Company | Role | Location | Pay | Application | Posted |', '| --- | --- | --- | --- | --- | --- |'];
+const TABLE_HEAD = ['| Company | Role | Location | Pay | Posted |', '| --- | --- | --- | --- | --- |'];
 const nonEmpty = [...bySection].filter(([, list]) => list.length);
 
 /* Each section also gets its own page with every role, so a search for, say,
@@ -157,7 +155,7 @@ for (const [name, list] of nonEmpty) {
     '',
     `**${list.length} open ${name.toLowerCase()} internships in the US, Canada and remote.** Updated ${updated}.`,
     '',
-    `Every role comes straight from the employer's own job board, checked every day by ${litosLink}, and drops off once the employer takes it down. **Apply** goes to the employer's application; **Apply with Litos** tailors your resume to that job and fills in the form, and you check everything before it is sent.`,
+    `Every role comes straight from the employer's own job board, checked every day by ${litosLink}, and drops off once the employer takes it down. Click a role to open it, with the employer's own application link.`,
     '',
     `[Back to all Summer 2027 internships](../README.md)`,
     '',

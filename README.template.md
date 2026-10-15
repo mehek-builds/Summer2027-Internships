@@ -6,11 +6,6 @@ Every role here comes straight from the employer's own job board, checked every 
 
 It covers every kind of internship, not only software: engineering, data, quant, product, design, business, finance and marketing.
 
-**Two ways to apply to each role:**
-
-- **Apply** goes to the employer's own application page.
-- **Apply with Litos** opens the role in [Litos](https://trylitos.com/?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027), which tailors your resume to that job and fills in the application form. You check everything and decide when it is sent.
-
 Need a visa sponsor? [See internships at companies that sponsor visas](https://trylitos.com/jobs/internships/visa-sponsorship?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027), where the posting offers sponsorship or the company has H-1B filings on record.
 
 Looking outside North America, or for full-time roles? [Browse every open job on Litos](https://trylitos.com/browse-jobs?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027).
