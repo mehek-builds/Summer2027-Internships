@@ -113,6 +113,7 @@ const closedToday = lastRun ? rows.filter(row => row.last_seen === lastRun).leng
 const totals = { date: today, internship_rows_seen: jobs.length, new_internships: added, internships_closed_since_last_run: closedToday };
 for (const [name, params] of TOTAL_FILTERS) {
   const body = await get({ ...params, limit: '1', offset: '0' });
+  if (!body || !Number.isSafeInteger(body.total) || body.total < 0) throw new Error('Internship feed total is malformed');
   totals[name] = body.total;
 }
 const header = Object.keys(totals);

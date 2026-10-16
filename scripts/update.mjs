@@ -142,7 +142,7 @@ for (const [name, list] of nonEmpty) {
     '',
     `**${list.length} open ${name.toLowerCase()} internships in the US, Canada and remote.** Updated ${updated}.`,
     '',
-    `Every role comes straight from the employer's own job board, checked every day by ${litosLink}, and drops off once the employer takes it down. Click a role to open it, with the employer's own application link.`,
+    `Every role comes straight from the employer's own job board, checked every day by ${litosLink}, and drops off after a successful employer-board check detects that it has closed and this list next refreshes. Click a role to open it, with the employer's own application link.`,
     '',
     `[Back to all Summer 2027 internships](../README.md)`,
     '',
