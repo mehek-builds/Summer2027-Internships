@@ -9,17 +9,19 @@
 //   internship-lifespan.csv  one row per internship posting ever seen: when the
 //                            employer posted it, when Litos first saw it, and the
 //                            first and last day this snapshot saw it open. A row
-//                            whose last_seen is before today has closed.
+//                            whose last_seen is before today was not observed in this pull.
+//                            Absence alone does not independently confirm employer closure.
 //   daily-totals.csv         one row per day with the feed's own totals for a few
 //                            fixed filters (the API's `total` field, not a count
 //                            we make), so trends need no re-pull.
 //
-// Read only, paced at about one request a second, far under the API's limit.
+// Read only, paced with the list updater and respectful of server cooldowns.
 // Re-running on the same day is safe: it only moves last_seen forward.
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { loadInternshipExport } from './internship-export.mjs';
 
-const API = 'https://api.trylitos.com/jobs';
-const today = new Date().toISOString().slice(0, 10);
+const exportArtifact = await loadInternshipExport();
+const today = exportArtifact.as_of.slice(0, 10);
 const LIFESPAN = 'data/internship-lifespan.csv';
 const TOTALS = 'data/daily-totals.csv';
 const COLUMNS = ['id', 'company', 'title', 'ats', 'country', 'sponsorship_status', 'posted_at', 'litos_first_seen_at', 'first_seen', 'last_seen'];
@@ -32,21 +34,6 @@ const TOTAL_FILTERS = [
   ['internship_us', { employment_type: 'Internship', location: 'United States' }],
 ];
 
-const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
-
-async function get(params) {
-  const url = `${API}?${new URLSearchParams(params)}`;
-  for (let attempt = 1; ; attempt++) {
-    const response = await fetch(url, { headers: { Accept: 'application/json', 'User-Agent': 'summer2027-internships-snapshot' } });
-    if (response.ok) {
-      const body = await response.json();
-      await pause(1000);
-      return body;
-    }
-    if (attempt === 4) throw new Error(`${url} returned ${response.status}`);
-    await pause(5000 * attempt);
-  }
-}
 
 /* RFC 4180: quote a field when it holds a comma, quote or newline. */
 const cell = value => {
@@ -82,15 +69,7 @@ async function readRows(path) {
   }
 }
 
-async function fetchInternships() {
-  const jobs = [];
-  for (let offset = 0; offset < 20_000; offset += 100) {
-    const body = await get({ employment_type: 'Internship', limit: '100', offset: String(offset) });
-    jobs.push(...body.jobs);
-    if (body.jobs.length < 100) break;
-  }
-  return jobs;
-}
+const fetchInternships = () => exportArtifact.jobs;
 
 await mkdir('data', { recursive: true });
 
@@ -121,7 +100,7 @@ for (const job of jobs) {
   });
 }
 const rows = [...byId.values()].sort((a, b) => a.first_seen.localeCompare(b.first_seen) || a.id.localeCompare(b.id));
-await writeFile(LIFESPAN, [COLUMNS.join(','), ...rows.map(row => COLUMNS.map(key => cell(row[key])).join(','))].join('\n') + '\n');
+
 /* Closed since the last run: open on the previous snapshot day, not seen today. Measured from the
    last run rather than yesterday, so a day the Action did not run is not miscounted. */
 const previousTotals = (await readRows(TOTALS)).filter(row => row.date < today);
@@ -129,15 +108,15 @@ const lastRun = previousTotals.at(-1)?.date;
 const closedToday = lastRun ? rows.filter(row => row.last_seen === lastRun).length : 0;
 
 /* 2. Daily totals, one row per day (a re-run replaces today's row). */
-const totals = { date: today, internship_rows_seen: jobs.length, new_internships: added, internships_closed_since_last_run: closedToday };
+const totals = { date: today, generation: exportArtifact.generation, as_of: exportArtifact.as_of, internship_rows_seen: jobs.length, new_internships: added, internships_closed_since_last_run: closedToday };
 for (const [name, params] of TOTAL_FILTERS) {
-  const body = await get({ ...params, limit: '1', offset: '0' });
-  totals[name] = body.total;
+  totals[name] = exportArtifact.totals[name];
 }
 const header = Object.keys(totals);
 const kept = (await readRows(TOTALS)).filter(row => row.date !== today);
 const lines = [header.join(','), ...[...kept, totals].map(row => header.map(key => cell(row[key])).join(','))];
+await writeFile(LIFESPAN, [COLUMNS.join(','), ...rows.map(row => COLUMNS.map(key => cell(row[key])).join(','))].join('\n') + '\n');
 await writeFile(TOTALS, lines.join('\n') + '\n');
 
-console.log(`Snapshot ${today}: ${jobs.length} open internships, ${added} new, ${closedToday} closed since the last run, ${rows.length} tracked in total.`);
+console.log(`Snapshot ${today}: ${jobs.length} open internships, ${added} new, ${closedToday} not observed since the last run, ${rows.length} tracked in total.`);
 
