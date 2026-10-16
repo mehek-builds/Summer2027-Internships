@@ -18,10 +18,10 @@
 // Read only, paced with the list updater and respectful of server cooldowns.
 // Re-running on the same day is safe: it only moves last_seen forward.
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { createFeedClient } from './feed-client.mjs';
+import { loadInternshipExport } from './internship-export.mjs';
 
-const API = 'https://api.trylitos.com/jobs';
-const today = new Date().toISOString().slice(0, 10);
+const exportArtifact = await loadInternshipExport();
+const today = exportArtifact.as_of.slice(0, 10);
 const LIFESPAN = 'data/internship-lifespan.csv';
 const TOTALS = 'data/daily-totals.csv';
 const COLUMNS = ['id', 'company', 'title', 'ats', 'country', 'sponsorship_status', 'posted_at', 'litos_first_seen_at', 'first_seen', 'last_seen'];
@@ -34,8 +34,6 @@ const TOTAL_FILTERS = [
   ['internship_us', { employment_type: 'Internship', location: 'United States' }],
 ];
 
-const feed = createFeedClient();
-const get = params => feed.get(API, params);
 
 /* RFC 4180: quote a field when it holds a comma, quote or newline. */
 const cell = value => {
@@ -71,7 +69,7 @@ async function readRows(path) {
   }
 }
 
-const fetchInternships = () => feed.all(API, { employment_type: 'Internship' });
+const fetchInternships = () => exportArtifact.jobs;
 
 await mkdir('data', { recursive: true });
 
@@ -110,11 +108,9 @@ const lastRun = previousTotals.at(-1)?.date;
 const closedToday = lastRun ? rows.filter(row => row.last_seen === lastRun).length : 0;
 
 /* 2. Daily totals, one row per day (a re-run replaces today's row). */
-const totals = { date: today, internship_rows_seen: jobs.length, new_internships: added, internships_closed_since_last_run: closedToday };
+const totals = { date: today, generation: exportArtifact.generation, as_of: exportArtifact.as_of, internship_rows_seen: jobs.length, new_internships: added, internships_closed_since_last_run: closedToday };
 for (const [name, params] of TOTAL_FILTERS) {
-  const body = await get({ ...params, limit: '1', offset: '0' });
-  if (!body || !Number.isSafeInteger(body.total) || body.total < 0) throw new Error('Internship feed total is malformed');
-  totals[name] = body.total;
+  totals[name] = exportArtifact.totals[name];
 }
 const header = Object.keys(totals);
 const kept = (await readRows(TOTALS)).filter(row => row.date !== today);

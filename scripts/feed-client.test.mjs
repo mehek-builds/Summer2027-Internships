@@ -66,25 +66,6 @@ test('a failed list fetch preserves existing published list files', async () => 
   await assert.rejects(exec(process.execPath, ['--import', join(dir, 'mock.mjs'), 'scripts/update.mjs'], { cwd: dir, timeout: 10000 }));
   assert.equal(await readFile(join(dir, 'README.md'), 'utf8'), 'existing list'); assert.equal(await readFile(join(dir, 'lists/software.md'), 'utf8'), 'existing roles');
 });
-test('a totals fetch failure preserves both historical snapshot files', async () => {
-  const dir = await staging(); await writeFile(join(dir, 'mock.mjs'), "let n=0; globalThis.fetch = async () => ++n===1 ? new Response(JSON.stringify({jobs:[{id:'new',title:'Intern'}],total:1,offset:0,limit:100,has_more:false,pagination_mode:'cursor',next_cursor:null}),{status:200}) : new Response('',{status:400});");
-  await assert.rejects(exec(process.execPath, ['--import', join(dir, 'mock.mjs'), 'scripts/snapshot.mjs'], { cwd: dir, timeout: 10000 }));
-  assert.equal(await readFile(join(dir, 'data/internship-lifespan.csv'), 'utf8'), 'id,last_seen\nold,2026-10-15\n'); assert.equal(await readFile(join(dir, 'data/daily-totals.csv'), 'utf8'), 'date,all\n2026-10-15,10\n');
-});
-
-
-test('malformed successful totals preserve both historical snapshot files', async () => {
-  for (const total of [undefined, null, -1, 1.5, '10']) {
-    const dir = await staging();
-    const totalsBody = total === undefined ? {} : { total };
-    await writeFile(join(dir, 'mock.mjs'), `let n=0; globalThis.fetch = async () => new Response(JSON.stringify(++n===1 ? {jobs:[{id:'new',title:'Intern'}],total:1,offset:0,limit:100,has_more:false,pagination_mode:'cursor',next_cursor:null} : ${JSON.stringify(totalsBody)}),{status:200});`);
-    await assert.rejects(exec(process.execPath, ['--import', join(dir, 'mock.mjs'), 'scripts/snapshot.mjs'], { cwd: dir, timeout: 10000 }));
-    assert.equal(await readFile(join(dir, 'data/internship-lifespan.csv'), 'utf8'), 'id,last_seen\nold,2026-10-15\n');
-    assert.equal(await readFile(join(dir, 'data/daily-totals.csv'), 'utf8'), 'date,all\n2026-10-15,10\n');
-  }
-});
-
-
 test('opaque cursors retain filters; cursor cycles, changed totals and invalidation abort', async () => {
   let n = 0; const urls = [];
   const opaque = fixture(url => {

@@ -5,7 +5,7 @@ import { setTimeout as delay } from 'node:timers/promises';
 export function createFeedClient({ fetchImpl = fetch, sleep = delay, now = Date.now,
   minGapMs = 1500, maxAttempts = 4, maxRetryWaitMs = 120_000 } = {}) {
   let nextRequestAt = 0;
-  async function get(api, params) {
+  async function get(api, params, { maxBytes = null } = {}) {
     const url = new URL(api);
     url.search = new URLSearchParams(params).toString();
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
@@ -20,7 +20,22 @@ export function createFeedClient({ fetchImpl = fetch, sleep = delay, now = Date.
         continue;
       }
       nextRequestAt = now() + minGapMs;
-      if (response.ok) return response.json();
+      if (response.ok) {
+        if (maxBytes === null) return response.json();
+        const reader = response.body?.getReader();
+        if (!reader) throw new Error('Internship export has no response body');
+        const chunks = []; let size = 0;
+        try {
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            size += value.byteLength;
+            if (size > maxBytes) throw new Error('Internship export exceeds its byte budget');
+            chunks.push(value);
+          }
+        } catch (error) { await reader.cancel(); throw error; }
+        return JSON.parse(Buffer.concat(chunks).toString('utf8'));
+      }
       const status = response.status;
       const retryAfter = response.headers.get('retry-after');
       const reset = response.headers.get('ratelimit-reset');

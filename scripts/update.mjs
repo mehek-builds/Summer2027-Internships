@@ -6,22 +6,21 @@
 // read by the Litos job monitor. Nothing here is typed by hand, so a role that
 // closes on the employer's board drops off on the next run.
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
-import { createFeedClient } from './feed-client.mjs';
+import { loadInternshipExport } from './internship-export.mjs';
 
-const API = 'https://api.trylitos.com/jobs/grouped';
 const SITE = 'https://trylitos.com';
 const UTM = 'utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027';
 const MAX_AGE_DAYS = 120;
 const MAX_ROWS_PER_SECTION = 200;
-const now = new Date();
+const exportArtifact = await loadInternshipExport();
+const now = new Date(exportArtifact.as_of);
 
 /* The feed writes timestamps as "2026-09-28 14:03:17+00", which Date cannot
    parse until the space and the bare hour offset are made ISO. */
 const parseTime = value => new Date(String(value).replace(' ', 'T').replace(/([+-]\d{2})$/, '$1:00'));
 const daysSince = value => (now - parseTime(value)) / 86_400_000;
 
-const feed = createFeedClient();
-const fetchAll = () => feed.all(API, { employment_type: 'Internship' });
+const fetchAll = () => exportArtifact.grouped;
 
 /* ---------- which rows belong on the list ---------- */
 

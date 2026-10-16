@@ -21,11 +21,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node scripts/update.mjs
-      # The feed deletes closed postings after two days, so this is the only record of how long
-      # internships stay open. A failed snapshot must not block the list update.
-      - run: node scripts/snapshot.mjs || { git restore -- data; exit 1; }
-        continue-on-error: true
+      # List and history use one validated immutable generation and publish together.
+      - run: node scripts/refresh.mjs
       - name: Commit if the list changed
         run: |
           if [ -z "$(git status --porcelain README.md lists data)" ]; then
