@@ -4,9 +4,10 @@
 //
 // Every listing comes from an employer's own applicant tracking system board,
 // read by the Litos job monitor. Nothing here is typed by hand, so a role that
-// closes on the employer's board drops off on the next run.
+// is observed in a snapshot. Absence alone does not establish closure.
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { loadInternshipExport } from './internship-export.mjs';
+import { eligiblePostingLocation } from './posting-location.mjs';
 
 const SITE = 'https://trylitos.com';
 const UTM = 'utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027';
@@ -20,24 +21,12 @@ const now = new Date(exportArtifact.as_of);
 const parseTime = value => new Date(String(value).replace(' ', 'T').replace(/([+-]\d{2})$/, '$1:00'));
 const daysSince = value => (now - parseTime(value)) / 86_400_000;
 
-const fetchAll = () => exportArtifact.grouped;
+const fetchAll = () => [...exportArtifact.jobs].sort((a, b) => String(b.posted_at).localeCompare(String(a.posted_at)) || a.id.localeCompare(b.id));
 
 /* ---------- which rows belong on the list ---------- */
 
 const INTERN = /\bintern(ship)?s?\b|\bco-?op\b(?!\s*city)/i;
 const NOT_A_ROLE_FOR_STUDENTS = /\brecruit(er|ing)\b|\b(senior|staff|principal|director)\b/i;
-
-const STATES = 'AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY'.split(' ');
-const PROVINCES = 'ON BC QC AB MB SK NS NB NL PE'.split(' ');
-const PLACES = /\b(united states|usa|u\.s\.|canada|new york|san francisco|bay area|seattle|boston|chicago|austin|los angeles|toronto|vancouver|montreal|waterloo|washington,? d\.?c)\b/i;
-const OTHER_COUNTRY = /\b(uk|united kingdom|london|germany|deutschland|france|netherlands|nederland|india|singapore|malaysia|spain|italy|belgium|ireland|poland|australia|japan|uae|dubai|brazil|mexico|philippines|emea|europe|apac|latam)\b/i;
-
-function isNorthAmerica(location) {
-  const code = location.match(/,\s*([A-Z]{2})\b/)?.[1];
-  if (code && (STATES.includes(code) || PROVINCES.includes(code))) return true;
-  if (PLACES.test(location)) return true;
-  return /\bremote\b/i.test(location) && !OTHER_COUNTRY.test(location);
-}
 
 /* First match wins, so order matters: "Quant Developer" is quant, and any
    title that names an engineering discipline is engineering before "design"
@@ -73,20 +62,12 @@ function payLabel(job) {
   return `${symbol}${amount(min || max)}${unit}`;
 }
 
-const splitLocations = locations => locations.flatMap(location => String(location).split(/\s*;\s*/)).filter(Boolean);
-
-function locationLabel(locations) {
-  const shown = splitLocations(locations).filter(isNorthAmerica);
-  const first = cell(shown[0] ?? locations[0]);
-  return shown.length > 1 ? `${first} (+${shown.length - 1})` : first;
-}
-
 function row(job) {
   /* The role links to its page on trylitos.com: pay, location, the employer's
      application and the sponsorship record, and a page search engines can
      index. No separate apply column (Mehek, 2026-10-15). */
   const role = `<a href="${SITE}/job/${encodeURIComponent(job.id)}?${UTM}">${cell(job.title)}</a>`;
-  return `| **${cell(job.company_name)}** | ${role} | ${locationLabel(job.locations)} | ${payLabel(job)} | ${ageLabel(job.posted_at)} |`;
+  return `| **${cell(job.company_name)}** | ${role} | ${cell(job.location)} | ${payLabel(job)} | ${ageLabel(job.posted_at)} |`;
 }
 
 /* ---------- build ---------- */
@@ -96,7 +77,7 @@ const seen = new Set();
 const bySection = new Map(SECTIONS.map(([name]) => [name, []]));
 for (const job of all) {
   if (!job.apply_url || !INTERN.test(job.title) || NOT_A_ROLE_FOR_STUDENTS.test(job.title)) continue;
-  if (!splitLocations(job.locations ?? []).some(isNorthAmerica)) continue;
+  if (!eligiblePostingLocation(job)) continue;
   if (job.posted_at && !(daysSince(job.posted_at) <= MAX_AGE_DAYS)) continue;
   const key = `${job.company_name}|${job.title}`.toLowerCase();
   if (seen.has(key)) continue;
@@ -139,9 +120,9 @@ for (const [name, list] of nonEmpty) {
   const page = [
     `# Summer 2027 ${name} Internships`,
     '',
-    `**${list.length} open ${name.toLowerCase()} internships in the US, Canada and remote.** Updated ${updated}.`,
+    `**${list.length} ${name.toLowerCase()} internships observed in the US, Canada and remote.** Updated ${updated}.`,
     '',
-    `Every role comes straight from the employer's own job board, checked every day by ${litosLink}, and drops off after a successful employer-board check detects that it has closed and this list next refreshes. Click a role to open it, with the employer's own application link.`,
+    `Roles come from employers' public job boards through ${litosLink}. This is a dated observation of the feed. Employer availability can change after capture; confirm each role on the employer's current posting before applying. Absence from a later snapshot does not by itself confirm that a role closed. Click a role to open its Litos page, including the employer's application link.`,
     '',
     `[Back to all Summer 2027 internships](../README.md)`,
     '',

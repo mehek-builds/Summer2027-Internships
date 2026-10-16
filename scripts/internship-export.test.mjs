@@ -10,8 +10,8 @@ import { createFeedClient } from './feed-client.mjs';
 const exec = promisify(execFile);
 function fixture() {
   const id = '30000000-0000-4000-8000-000000000001', time = new Date().toISOString();
-  return { version: 1, generation: '40000000-0000-4000-8000-000000000001', as_of: time, complete: true,
-    jobs: [{ id, company_name: 'Example', title: 'Engineering Intern', ats_name: 'greenhouse', job_country: 'us', sponsorship_status: 'unstated', posted_at: time, first_seen_at: time }],
+  return { version: 2, generation: '40000000-0000-4000-8000-000000000001', as_of: time, complete: true,
+    jobs: [{ id, company_name: 'Example', title: 'Engineering Intern', ats_name: 'greenhouse', job_country: 'us', sponsorship_status: 'unstated', posted_at: time, first_seen_at: time, location: 'New York, NY', apply_url: 'https://example.com/apply', salary_min: null, salary_max: null, salary_currency: null, salary_interval: null }],
     grouped: [{ id, company_name: 'Example', title: 'Engineering Intern', ats_name: 'greenhouse', locations: ['New York, NY'], apply_url: 'https://example.com/apply', posted_at: time, openings: 1, salary_min: null, salary_max: null, salary_currency: null, salary_interval: null }],
     total: 1, grouped_total: 1, totals: { all: 10, us: 6, us_sponsor_only: 3, internship: 1, internship_sponsor_only: 0, internship_us: 1 } };
 }
@@ -51,10 +51,33 @@ test('one validated export generates the list and history without another networ
   try {
     await exec(process.execPath, ['scripts/refresh.mjs'], { cwd: dir, env, timeout: 10000 });
     assert.match(await readFile(join(dir, 'README.md'), 'utf8'), /Example/);
+    const category = await readFile(join(dir, 'lists/hardware-and-other-engineering.md'), 'utf8');
+    assert.match(category, /internships observed/);
+    assert.match(category, /dated observation of the feed/);
+    assert.match(category, /Absence from a later snapshot does not by itself confirm/);
+    assert.doesNotMatch(category, /checked every day|drops off after/);
     assert.equal(JSON.parse(await readFile(join(dir, 'data/export-generation.json'), 'utf8')).generation, '40000000-0000-4000-8000-000000000001');
     assert.match(await readFile(join(dir, 'data/internship-lifespan.csv'), 'utf8'), /30000000-0000-4000-8000-000000000001/);
     assert.match(await readFile(join(dir, 'data/daily-totals.csv'), 'utf8'), new RegExp(fixture().as_of.slice(0,10)));
     assert.equal((await readdir(dir)).some(name => name.startsWith('.litos-refresh-')), false);
+  } finally { await rm(dir, { recursive: true, force: true }); }
+});
+test('eligibility precedes title deduplication and displayed location and pay belong to the linked individual', async () => {
+  const value = fixture(), us = value.jobs[0];
+  us.posted_at = new Date(Date.now() - 86_400_000).toISOString();
+  Object.assign(us, { salary_min: 24, salary_max: 24, salary_currency: 'USD', salary_interval: 'hour' });
+  const foreign = { ...us, id: '30000000-0000-4000-8000-000000000002', location: 'Office - London, UK', job_country: 'non_us', salary_min: 99, salary_max: 99, posted_at: value.as_of };
+  value.jobs.push(foreign); value.total = 2; value.totals.internship = 2;
+  Object.assign(value.grouped[0], { id: foreign.id, locations: [us.location, foreign.location], openings: 2, salary_min: 99, salary_max: 99 });
+  const { dir, env } = await stage(value);
+  try {
+    await exec(process.execPath, ['scripts/refresh.mjs'], { cwd: dir, env, timeout: 10000 });
+    const page = await readFile(join(dir, 'README.md'), 'utf8');
+    assert.match(page, new RegExp(us.id));
+    assert.doesNotMatch(page, new RegExp(foreign.id));
+    assert.match(page, /New York, NY/);
+    assert.match(page, /\$24\/hr/);
+    assert.doesNotMatch(page, /London|\$99/);
   } finally { await rm(dir, { recursive: true, force: true }); }
 });
 test('invalid totals or a failed history stage preserve all previous published files', async () => {
