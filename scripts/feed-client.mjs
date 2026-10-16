@@ -3,16 +3,16 @@ import { setTimeout as delay } from 'node:timers/promises';
 // Shared pacing for the list and historical snapshot. Respect server cooldowns;
 // never publish a capped or failed pagination result as a complete refresh.
 export function createFeedClient({ fetchImpl = fetch, sleep = delay, now = Date.now,
-  minGapMs = 1500, maxAttempts = 4, maxRetryWaitMs = 120_000 } = {}) {
+  minGapMs = 1500, maxAttempts = 4, maxRetryWaitMs = 120_000, timeoutSignal = ms => AbortSignal.timeout(ms) } = {}) {
   let nextRequestAt = 0;
-  async function get(api, params, { maxBytes = null } = {}) {
+  async function get(api, params, { maxBytes = null, timeoutMs = 20_000 } = {}) {
     const url = new URL(api);
     url.search = new URLSearchParams(params).toString();
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
       await sleep(Math.max(0, nextRequestAt - now()));
       let response;
       try {
-        response = await fetchImpl(url.href, { headers: { Accept: 'application/json', 'User-Agent': 'litos-public-internship-resource' }, signal: AbortSignal.timeout(20_000) });
+        response = await fetchImpl(url.href, { headers: { Accept: 'application/json', 'User-Agent': 'litos-public-internship-resource' }, signal: timeoutSignal(timeoutMs) });
       } catch (error) {
         nextRequestAt = now() + minGapMs;
         if (attempt === maxAttempts) throw new Error('Internship feed transport failed', { cause: error });

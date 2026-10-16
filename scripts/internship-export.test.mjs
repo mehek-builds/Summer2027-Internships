@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
-import { validateExport } from './internship-export.mjs';
+import { validateExport, loadInternshipExport, EXPORT_TIMEOUT_MS } from './internship-export.mjs';
 import { createFeedClient } from './feed-client.mjs';
 const exec = promisify(execFile);
 function fixture() {
@@ -18,7 +18,9 @@ function fixture() {
 test('incomplete, stale, duplicated, private-field and inconsistent exports are refused', () => {
   for (const change of [x => x.complete=false, x => x.as_of='2020-01-01', x => x.jobs.push(x.jobs[0]),
     x => x.total=2, x => x.grouped[0].openings=2, x => x.jobs[0].raw_json={}, x => x.grouped[0].career_url='private',
-    x => x.totals.internship=2, x => x.totals.all=-1, x => x.totals.us_sponsor_only=7]) {
+    x => x.totals.internship=2, x => x.totals.all=-1, x => x.totals.us_sponsor_only=7,
+    x => x.totals.unexpected_private_field='private', x => x.grouped[0].salary_min={},
+    x => x.grouped[0].salary_max='not numeric', x => x.grouped[0].salary_currency={}, x => x.grouped[0].salary_interval=3, x => x.extra_private='secret']) {
     const value = fixture(); change(value); assert.throws(() => validateExport(value), /malformed/);
   }
   assert.equal(validateExport(fixture()).total, 1);
@@ -56,8 +58,10 @@ test('one validated export generates the list and history without another networ
   } finally { await rm(dir, { recursive: true, force: true }); }
 });
 test('invalid totals or a failed history stage preserve all previous published files', async () => {
-  for (const failure of ['totals', 'history']) {
+  for (const failure of ['totals', 'history', 'private metadata', 'salary']) {
     const value = fixture(); if (failure === 'totals') value.totals.internship=-1;
+    if (failure === 'private metadata') value.totals.unexpected_private_field='must not publish';
+    if (failure === 'salary') value.grouped[0].salary_min={ unexpected: 'must not publish' };
     const { dir, env } = await stage(value);
     try {
       if (failure === 'history') await writeFile(join(dir, 'scripts/snapshot.mjs'), "throw new Error('snapshot refused');");
@@ -73,4 +77,18 @@ test('a swap failure rolls back earlier replacements instead of publishing a par
     await assert.rejects(exec(process.execPath, ['scripts/refresh.mjs'], { cwd: dir, env, timeout: 10000 }));
     await unchanged(dir);
   } finally { await rm(dir, { recursive: true, force: true }); }
+});
+
+
+test('export requests have their own bounded generation and body deadline; ordinary calls retain20seconds', async () => {
+  const durations = [];
+  const client = createFeedClient({ timeoutSignal: ms => { durations.push(ms); return AbortSignal.timeout(ms); }, fetchImpl: async () => new Response(JSON.stringify(fixture())) });
+  await client.get('https://example.com/ordinary', {});
+  assert.equal(durations[0], 20000);
+  const original = process.env.LITOS_EXPORT_PATH;
+  delete process.env.LITOS_EXPORT_PATH;
+  try { await loadInternshipExport({ client }); }
+  finally { if (original === undefined) delete process.env.LITOS_EXPORT_PATH; else process.env.LITOS_EXPORT_PATH=original; }
+  assert.equal(durations[1], EXPORT_TIMEOUT_MS);
+  assert.equal(EXPORT_TIMEOUT_MS, 45000);
 });
