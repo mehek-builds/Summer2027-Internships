@@ -15,6 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -23,7 +24,7 @@ jobs:
       - run: node scripts/update.mjs
       # The feed deletes closed postings after two days, so this is the only record of how long
       # internships stay open. A failed snapshot must not block the list update.
-      - run: node scripts/snapshot.mjs
+      - run: node scripts/snapshot.mjs || { git restore -- data; exit 1; }
         continue-on-error: true
       - name: Commit if the list changed
         run: |
@@ -31,8 +32,8 @@ jobs:
             echo "No change"
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Mehek Mandal"
+          git config user.email "mehekbuilds@gmail.com"
           git add README.md lists data
           git commit -m "Update list $(date -u +%Y-%m-%d)"
           git push

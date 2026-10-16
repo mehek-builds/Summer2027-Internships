@@ -6,6 +6,7 @@
 // read by the Litos job monitor. Nothing here is typed by hand, so a role that
 // closes on the employer's board drops off on the next run.
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
+import { createFeedClient } from './feed-client.mjs';
 
 const API = 'https://api.trylitos.com/jobs/grouped';
 const SITE = 'https://trylitos.com';
@@ -19,22 +20,8 @@ const now = new Date();
 const parseTime = value => new Date(String(value).replace(' ', 'T').replace(/([+-]\d{2})$/, '$1:00'));
 const daysSince = value => (now - parseTime(value)) / 86_400_000;
 
-async function fetchAll() {
-  const jobs = [];
-  for (let offset = 0; offset < 10_000; offset += 100) {
-    const url = `${API}?employment_type=Internship&limit=100&offset=${offset}`;
-    let body;
-    for (let attempt = 1; ; attempt++) {
-      const response = await fetch(url, { headers: { Accept: 'application/json' } });
-      if (response.ok) { body = await response.json(); break; }
-      if (attempt === 3) throw new Error(`${url} returned ${response.status}`);
-      await new Promise(resolve => setTimeout(resolve, 2000 * attempt));
-    }
-    jobs.push(...body.jobs);
-    if (!body.has_more) break;
-  }
-  return jobs;
-}
+const feed = createFeedClient();
+const fetchAll = () => feed.all(API, { employment_type: 'Internship' });
 
 /* ---------- which rows belong on the list ---------- */
 

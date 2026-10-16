@@ -9,14 +9,16 @@
 //   internship-lifespan.csv  one row per internship posting ever seen: when the
 //                            employer posted it, when Litos first saw it, and the
 //                            first and last day this snapshot saw it open. A row
-//                            whose last_seen is before today has closed.
+//                            whose last_seen is before today was not observed in this pull.
+//                            Absence alone does not independently confirm employer closure.
 //   daily-totals.csv         one row per day with the feed's own totals for a few
 //                            fixed filters (the API's `total` field, not a count
 //                            we make), so trends need no re-pull.
 //
-// Read only, paced at about one request a second, far under the API's limit.
+// Read only, paced with the list updater and respectful of server cooldowns.
 // Re-running on the same day is safe: it only moves last_seen forward.
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { createFeedClient } from './feed-client.mjs';
 
 const API = 'https://api.trylitos.com/jobs';
 const today = new Date().toISOString().slice(0, 10);
@@ -32,21 +34,8 @@ const TOTAL_FILTERS = [
   ['internship_us', { employment_type: 'Internship', location: 'United States' }],
 ];
 
-const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
-
-async function get(params) {
-  const url = `${API}?${new URLSearchParams(params)}`;
-  for (let attempt = 1; ; attempt++) {
-    const response = await fetch(url, { headers: { Accept: 'application/json', 'User-Agent': 'summer2027-internships-snapshot' } });
-    if (response.ok) {
-      const body = await response.json();
-      await pause(1000);
-      return body;
-    }
-    if (attempt === 4) throw new Error(`${url} returned ${response.status}`);
-    await pause(5000 * attempt);
-  }
-}
+const feed = createFeedClient();
+const get = params => feed.get(API, params);
 
 /* RFC 4180: quote a field when it holds a comma, quote or newline. */
 const cell = value => {
@@ -82,15 +71,7 @@ async function readRows(path) {
   }
 }
 
-async function fetchInternships() {
-  const jobs = [];
-  for (let offset = 0; offset < 20_000; offset += 100) {
-    const body = await get({ employment_type: 'Internship', limit: '100', offset: String(offset) });
-    jobs.push(...body.jobs);
-    if (body.jobs.length < 100) break;
-  }
-  return jobs;
-}
+const fetchInternships = () => feed.all(API, { employment_type: 'Internship' });
 
 await mkdir('data', { recursive: true });
 
@@ -121,7 +102,7 @@ for (const job of jobs) {
   });
 }
 const rows = [...byId.values()].sort((a, b) => a.first_seen.localeCompare(b.first_seen) || a.id.localeCompare(b.id));
-await writeFile(LIFESPAN, [COLUMNS.join(','), ...rows.map(row => COLUMNS.map(key => cell(row[key])).join(','))].join('\n') + '\n');
+
 /* Closed since the last run: open on the previous snapshot day, not seen today. Measured from the
    last run rather than yesterday, so a day the Action did not run is not miscounted. */
 const previousTotals = (await readRows(TOTALS)).filter(row => row.date < today);
@@ -137,7 +118,8 @@ for (const [name, params] of TOTAL_FILTERS) {
 const header = Object.keys(totals);
 const kept = (await readRows(TOTALS)).filter(row => row.date !== today);
 const lines = [header.join(','), ...[...kept, totals].map(row => header.map(key => cell(row[key])).join(','))];
+await writeFile(LIFESPAN, [COLUMNS.join(','), ...rows.map(row => COLUMNS.map(key => cell(row[key])).join(','))].join('\n') + '\n');
 await writeFile(TOTALS, lines.join('\n') + '\n');
 
-console.log(`Snapshot ${today}: ${jobs.length} open internships, ${added} new, ${closedToday} closed since the last run, ${rows.length} tracked in total.`);
+console.log(`Snapshot ${today}: ${jobs.length} open internships, ${added} new, ${closedToday} not observed since the last run, ${rows.length} tracked in total.`);
 
