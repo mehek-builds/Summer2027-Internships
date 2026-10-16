@@ -15,7 +15,11 @@ const canada = /\b(canada|ontario|quebec|british columbia|alberta|manitoba|saska
 const explicitUS = /\b(united states(?: of america)?|usa)\b|\bu\.s\.(?:a\.)?/i;
 export function eligiblePostingLocation(posting) {
   const location = normalize(posting.location);
-  if (!location.trim() || foreign.test(location)) return false;
+  // These complete US place names contain foreign region names as substrings.
+  // Explicit US context disambiguates Georgia; US metadata alone does not.
+  let countryContext = location.replace(/\b(?:new mexico|new jersey|jersey city)\b/g, 'us place');
+  if (explicitUS.test(location)) countryContext = countryContext.replace(/\bgeorgia\b/g, 'us state');
+  if (!location.trim() || foreign.test(countryContext)) return false;
   if (canada.test(location)) return true;
   if (explicitUS.test(location)) return true;
   // A bare remote label or ambiguous state token is not geographic evidence.

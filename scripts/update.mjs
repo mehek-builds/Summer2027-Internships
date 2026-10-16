@@ -21,7 +21,12 @@ const now = new Date(exportArtifact.as_of);
 const parseTime = value => new Date(String(value).replace(' ', 'T').replace(/([+-]\d{2})$/, '$1:00'));
 const daysSince = value => (now - parseTime(value)) / 86_400_000;
 
-const fetchAll = () => [...exportArtifact.jobs].sort((a, b) => String(b.posted_at).localeCompare(String(a.posted_at)) || a.id.localeCompare(b.id));
+const comparePostings = (a, b) => {
+  const aTime = a.posted_at === null ? -Infinity : Date.parse(a.posted_at);
+  const bTime = b.posted_at === null ? -Infinity : Date.parse(b.posted_at);
+  return (aTime === bTime ? 0 : aTime > bTime ? -1 : 1) || a.id.localeCompare(b.id);
+};
+const fetchAll = () => [...exportArtifact.jobs].sort(comparePostings);
 
 /* ---------- which rows belong on the list ---------- */
 
@@ -85,7 +90,7 @@ for (const job of all) {
   const [name] = SECTIONS.find(([, pattern]) => pattern.test(job.title));
   bySection.get(name).push(job);
 }
-for (const list of bySection.values()) list.sort((a, b) => String(b.posted_at).localeCompare(String(a.posted_at)));
+for (const list of bySection.values()) list.sort(comparePostings);
 
 const total = [...bySection.values()].reduce((sum, list) => sum + list.length, 0);
 const companies = new Set([...bySection.values()].flat().map(job => job.company_name)).size;

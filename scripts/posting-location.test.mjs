@@ -13,3 +13,9 @@ test('individual US and Canadian evidence survives without treating bare remote 
   for (const location of ['Remote', 'Curitiba', 'Waterloo', 'Hesse, DE', 'Edinburgh, SC', '', null])
     assert.equal(eligible({ location, job_country: 'unknown' }), false, String(location));
 });
+test('US place names do not become foreign country evidence, while real foreign context still wins', () => {
+  for (const location of ['Atlanta, Georgia, United States', 'Newark, New Jersey, United States', 'Albuquerque, New Mexico, United States', 'Jersey City, NJ'])
+    assert.equal(eligible({ location, job_country: 'us' }), true, location);
+  for (const location of ['Georgia', 'Jersey', 'Mexico', 'New Jersey, United Kingdom', 'Atlanta, Georgia, United States; Germany'])
+    assert.equal(eligible({ location, job_country: 'us' }), false, location);
+});

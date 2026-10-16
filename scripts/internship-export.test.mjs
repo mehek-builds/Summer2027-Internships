@@ -80,6 +80,21 @@ test('eligibility precedes title deduplication and displayed location and pay be
     assert.doesNotMatch(page, /London|\$99/);
   } finally { await rm(dir, { recursive: true, force: true }); }
 });
+test('dated eligible duplicates win over undated postings in the rendered list', async () => {
+  const value = fixture(), dated = value.jobs[0];
+  const undated = { ...dated, id: '30000000-0000-4000-8000-000000000002', posted_at: null, location: 'Boston, MA' };
+  value.jobs.push(undated); value.total = 2; value.totals.internship = 2;
+  value.grouped[0].openings = 2;
+  const { dir, env } = await stage(value);
+  try {
+    await exec(process.execPath, ['scripts/refresh.mjs'], { cwd: dir, env, timeout: 10000 });
+    const page = await readFile(join(dir, 'README.md'), 'utf8');
+    assert.match(page, new RegExp(dated.id));
+    assert.doesNotMatch(page, new RegExp(undated.id));
+    assert.match(page, /New York, NY/);
+    assert.doesNotMatch(page, /Boston, MA/);
+  } finally { await rm(dir, { recursive: true, force: true }); }
+});
 test('invalid totals or a failed history stage preserve all previous published files', async () => {
   for (const failure of ['totals', 'history', 'private metadata', 'salary']) {
     const value = fixture(); if (failure === 'totals') value.totals.internship=-1;
