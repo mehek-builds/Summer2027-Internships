@@ -1,8 +1,10 @@
 # Summer 2027 Internships
 
-**{{TOTAL}} open internships at {{COMPANIES}} companies in the US, Canada and remote.** Updated {{UPDATED}}.
+**{{TOTAL}} internships observed at {{COMPANIES}} companies in the US, Canada and remote.** Updated {{UPDATED}}.
 
-Every role here comes straight from the employer's own job board, checked every day by [Litos](https://trylitos.com/?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027). Nothing is copied from LinkedIn or Indeed, and a role drops off after a successful employer-board check detects that it has closed and this list next refreshes.
+Roles come from employers' public job boards through [Litos](https://trylitos.com/?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027). This is a dated observation of the feed. Employer availability can change after capture.
+
+> **Dated snapshot.** Confirm each role on the employer's current posting before applying. The date above records the published snapshot, not a guarantee that every role is still available.
 
 It covers every kind of internship, not only software: engineering, data, quant, product, design, business, finance and marketing.
 
