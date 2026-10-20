@@ -83,7 +83,11 @@ const bySection = new Map(SECTIONS.map(([name]) => [name, []]));
 for (const job of all) {
   if (!job.apply_url || !INTERN.test(job.title) || NOT_A_ROLE_FOR_STUDENTS.test(job.title)) continue;
   if (!eligiblePostingLocation(job)) continue;
-  if (job.posted_at && !(daysSince(job.posted_at) <= MAX_AGE_DAYS)) continue;
+  /* Hard age rule: the EARLIER of the posting date and the day Litos first saw it must be inside
+     MAX_AGE_DAYS. posted_at alone is not enough: it is null on some boards, and Greenhouse's is
+     really updated_at, which moves forward and lets an old requisition read as new. */
+  const ages = [job.posted_at, job.first_seen_at].filter(Boolean).map(daysSince);
+  if (!ages.length || !(Math.max(...ages) <= MAX_AGE_DAYS)) continue;
   const key = `${job.company_name}|${job.title}`.toLowerCase();
   if (seen.has(key)) continue;
   seen.add(key);
