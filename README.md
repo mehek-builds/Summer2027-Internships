@@ -1,6 +1,6 @@
 # Summer 2027 Internships
 
-**7271 internships observed at 1141 companies in the US, Canada and remote.** Updated 2026-10-20.
+**7271 internships observed at 1142 companies in the US, Canada and remote.** Updated 2026-10-20.
 
 Roles come from employers' public job boards through [Litos](https://trylitos.com/?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027). This is a dated observation of the feed. Employer availability can change after capture.
 
@@ -19,9 +19,9 @@ Star this repo to keep it handy. An automated refresh is scheduled daily. The da
 - [Quant and Trading](#quant-and-trading) (44), [full list](lists/quant-and-trading.md)
 - [Software Engineering](#software-engineering) (425), [full list](lists/software-engineering.md)
 - [Data Science, AI and Machine Learning](#data-science-ai-and-machine-learning) (430), [full list](lists/data-science-ai-and-machine-learning.md)
-- [Hardware and Other Engineering](#hardware-and-other-engineering) (1738), [full list](lists/hardware-and-other-engineering.md)
+- [Hardware and Other Engineering](#hardware-and-other-engineering) (1736), [full list](lists/hardware-and-other-engineering.md)
 - [Product and Design](#product-and-design) (153), [full list](lists/product-and-design.md)
-- [Business, Finance and Marketing](#business-finance-and-marketing) (4481), [full list](lists/business-finance-and-marketing.md)
+- [Business, Finance and Marketing](#business-finance-and-marketing) (4483), [full list](lists/business-finance-and-marketing.md)
 
 ## Quant and Trading
 
@@ -234,7 +234,7 @@ Star this repo to keep it handy. An automated refresh is scheduled daily. The da
 | **Micron** | <a href="https://trylitos.com/job/f9424370-e31a-4c11-b7ae-838e1c510e8a?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Intern - SSD Firmware - CICD</a> | Longmont-MAX- Office, CO |  | 11d |
 | **Wilcox + Flegel** | <a href="https://trylitos.com/job/aa827eaf-5c26-4f39-805e-42e8fff3562c?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Cybersecurity Compliance Intern</a> | Longview, United States |  | 11d |
 | **Pinterest** | <a href="https://trylitos.com/job/1fc2f3ed-e048-4209-b8fb-9443782347a3?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Software Engineer Intern 2027 (USA)</a> | San Francisco, CA, US; Remote, US |  | 11d |
-| **Mach Industries** | <a href="https://trylitos.com/job/f7af1bc0-458d-4af0-a8db-ac11b6b9663d?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer 2027 Engineering Internship, Software/GNC</a> | Huntington Beach, California, United States; San Francisco, California, United States | $30-55/hr | 11d |
+| **Mach Industries** | <a href="https://trylitos.com/job/f7af1bc0-458d-4af0-a8db-ac11b6b9663d?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer 2027 Engineering Internship, Software/GNC</a> | Huntington Beach, California, United States; San Francisco, California, United States | $30-55/hr | 12d |
 | **Intel** | <a href="https://trylitos.com/job/21007049-8db5-4370-8743-40b459d81301?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Software Research Engineering - (PhD Intern)</a> | US, Oregon, Hillsboro |  | 12d |
 | **Gordon Food Service** | <a href="https://trylitos.com/job/50548de6-2db8-41fe-913f-330d8ad64ba7?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Software Engineer Intern (Transportation Routing )</a> | Wyoming, Michigan |  | 12d |
 | **Boeing** | <a href="https://trylitos.com/job/5aeafff4-7acb-4781-babe-6115bfe1f59c?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Boeing Engineering & Technology Innovation Graduate Researcher Program, Software Engineering Artificial Intelligence Intern</a> | USA - Tukwila, WA |  | 12d |
@@ -358,7 +358,7 @@ Star this repo to keep it handy. An automated refresh is scheduled daily. The da
 | **American Century** | <a href="https://trylitos.com/job/f3cbceee-8083-41b8-a562-b35f30d996b3?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Enterprise Data Intern</a> | Kansas City, Missouri |  | 6d |
 | **Brookfield** | <a href="https://trylitos.com/job/fa8fa4b6-bc39-4e17-bd47-db9c82f58c4c?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Intern, Analytics Modelling ~ Brookfield Wealth Solutions</a> | New York, New York |  | 6d |
 | **GE Vernova** | <a href="https://trylitos.com/job/fad21bd1-23d6-4d7e-b932-59c139580cdc?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">GE Vernova - AGI - AI Post-Training and Model Alignment Intern - Summer 2027</a> | Bellevue |  | 6d |
-| **Gallup** | <a href="https://trylitos.com/job/55086a11-4a78-48ad-bf88-0d42e9651ef1?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Data Engineering Intern - Summer 2027</a> | San Francisco |  | 6d |
+| **Gallup** | <a href="https://trylitos.com/job/55086a11-4a78-48ad-bf88-0d42e9651ef1?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Data Engineering Intern - Summer 2027</a> | San Francisco |  | 7d |
 | **Huawei Technologies Canada Co., Ltd.** | <a href="https://trylitos.com/job/9a46cc96-02ce-40f6-8f11-717208a3ec3f?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Intern Researcher- Audio, Speech & Acoustic AI</a> | Markham, Canada |  | 7d |
 | **7-Eleven** | <a href="https://trylitos.com/job/03759004-40ae-4cf8-885f-80d089becff9?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Fuel Pricing Data Scientist Intern</a> | SSC Irving TX |  | 7d |
 | **Prologis** | <a href="https://trylitos.com/job/046f88da-a3dd-4a0a-a60d-5b356897253f?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">AI Product Management Intern</a> | Denver, Colorado |  | 7d |
@@ -490,7 +490,7 @@ Star this repo to keep it handy. An automated refresh is scheduled daily. The da
 
 ## Hardware and Other Engineering
 
-1738 open roles; the newest 200 are below. [See all 1738 Hardware and Other Engineering internships](lists/hardware-and-other-engineering.md).
+1736 open roles; the newest 200 are below. [See all 1736 Hardware and Other Engineering internships](lists/hardware-and-other-engineering.md).
 
 | Company | Role | Location | Pay | Posted |
 | --- | --- | --- | --- | --- |
@@ -529,7 +529,7 @@ Star this repo to keep it handy. An automated refresh is scheduled daily. The da
 | **Zipline** | <a href="https://trylitos.com/job/db5718c4-37be-4424-9366-e49b41a7c49a?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Mechanical Engineer Intern (Summer 2027)</a> | South San Francisco, California, USA |  | today |
 | **Zipline** | <a href="https://trylitos.com/job/04b0e0b5-78e0-46e5-97a8-d29c4596c87c?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Mechanical Engineer Intern (Spring 2027)</a> | South San Francisco, California, USA |  | today |
 | **Zipline** | <a href="https://trylitos.com/job/8da381d3-ba48-4264-a84f-fb36f7954edc?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Electrical Engineer Intern (Summer 2027)</a> | South San Francisco, California, USA |  | today |
-| **Zipline** | <a href="https://trylitos.com/job/db92cab0-5b2f-4792-a28d-b3bd45d25ebc?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Electrical Engineer Intern (Spring 2027)</a> | South San Francisco, California, USA |  | today |
+| **Zipline** | <a href="https://trylitos.com/job/db92cab0-5b2f-4792-a28d-b3bd45d25ebc?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Electrical Engineer Intern (Spring 2027)</a> | South San Francisco, California, USA |  | 1d |
 | **Knutson Construction** | <a href="https://trylitos.com/job/f4492603-5206-4606-93b9-18560e8770d3?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Project Engineer Intern - Summer 2027</a> | Minneapolis, MN |  | 1d |
 | **STV** | <a href="https://trylitos.com/job/0043f2cc-43da-4e52-8d14-63ea7a047073?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Traffic Engineering Intern - Summer 2027</a> | Austin, Texas; Houston, Texas |  | 1d |
 | **Phasor Engineering Inc** | <a href="https://trylitos.com/job/012d4958-13f9-4a03-9ac4-b6187b64c45e?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Electrical Engineer Co-op / Internship January 2027</a> | Calgary, Alberta, Canada / Burnaby, British Columbia, Canada / Mississauga, Ontario, Canada / Winnipeg, Manitoba, Canada |  | 1d |
@@ -677,9 +677,9 @@ Star this repo to keep it handy. An automated refresh is scheduled daily. The da
 | **Zipline** | <a href="https://trylitos.com/job/b4c1d564-f354-419d-b6cc-eaf5a5a3f495?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Supplier Industrialization Engineering Intern (Summer 2027)</a> | South San Francisco, California, USA |  | 4d |
 | **Zipline** | <a href="https://trylitos.com/job/d33251dc-a75e-498b-a353-7fd9bae96e8b?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Electrical Project Engineer Intern (Summer 2027)</a> | South San Francisco, California, USA |  | 4d |
 | **Zipline** | <a href="https://trylitos.com/job/db035426-0afa-4461-b46e-1f40a00bc121?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Maintenance Tool Engineering Intern (Summer 2027)</a> | Esparto, California, USA |  | 4d |
-| **AtriCure** | <a href="https://trylitos.com/job/dc1ebcd5-b2d8-486e-ac92-c4bcdba92fec?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Engineering Intern</a> | Pleasanton, CA |  | 4d |
-| **AtriCure** | <a href="https://trylitos.com/job/75ff4393-3d97-4c59-8b51-8d4a0402d358?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Engineering Services Co-op</a> | Mason, OH |  | 4d |
-| **AtriCure** | <a href="https://trylitos.com/job/e22e7287-0d16-4b92-b26d-8f785d4e0d67?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Engineering Co-op Spring 2027</a> | Minnetonka, MN | $21-25/hr | 4d |
+| **AtriCure** | <a href="https://trylitos.com/job/dc1ebcd5-b2d8-486e-ac92-c4bcdba92fec?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Engineering Intern</a> | Pleasanton, CA |  | 5d |
+| **AtriCure** | <a href="https://trylitos.com/job/75ff4393-3d97-4c59-8b51-8d4a0402d358?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Engineering Services Co-op</a> | Mason, OH |  | 5d |
+| **AtriCure** | <a href="https://trylitos.com/job/e22e7287-0d16-4b92-b26d-8f785d4e0d67?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Engineering Co-op Spring 2027</a> | Minnetonka, MN | $21-25/hr | 5d |
 | **EQT Corporation** | <a href="https://trylitos.com/job/4525c9b4-3da1-4910-b137-5320eb3ec25f?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Compression Engineer Intern</a> | Canonsburg, PA |  | 5d |
 | **EQT Corporation** | <a href="https://trylitos.com/job/660464a9-c32f-4a78-8dc9-12407988d2e5?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Civil Engineering Services Intern</a> | Canonsburg, PA |  | 5d |
 | **EQT Corporation** | <a href="https://trylitos.com/job/bc211fab-3e49-40bf-851a-adae89a4f7fe?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Civil Construction Intern</a> | Waynesburg, PA |  | 5d |
@@ -752,7 +752,7 @@ Star this repo to keep it handy. An automated refresh is scheduled daily. The da
 | **Manulife** | <a href="https://trylitos.com/job/207a2102-d7d1-4e81-bf19-e75a413e22e7?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer Intern 2027 - Product Management & Risk Technology</a> | Toronto, Ontario |  | 12d |
 | **American Electric Power** | <a href="https://trylitos.com/job/c0e6c5b6-3c69-4a82-a16b-a0d29908430e?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">User Experience Design Intern</a> | Columbus, OH |  | 12d |
 | **Aptiv** | <a href="https://trylitos.com/job/cf1669a0-3881-497d-9e24-b1d541bd25a5?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Multimedia Design Intern</a> | Troy, MI - USA |  | 12d |
-| **Studio Museum in Harlem** | <a href="https://trylitos.com/job/aedfecbc-927d-4584-9731-2fc4a61efb5f?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Spring 2027 Graphic Design Intern</a> | New York, NY |  | 12d |
+| **Studio Museum in Harlem** | <a href="https://trylitos.com/job/aedfecbc-927d-4584-9731-2fc4a61efb5f?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Spring 2027 Graphic Design Intern</a> | New York, NY |  | 13d |
 | **Copart** | <a href="https://trylitos.com/job/2ebf2f37-63e4-469a-a1f9-89389386fcba?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">UI/UX Designer Intern - IT</a> | Dallas, TX - Headquarters |  | 13d |
 | **Allegion** | <a href="https://trylitos.com/job/601c4cb2-746d-48bb-a567-2e6690247ff0?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer Intern - User Experience (UX)</a> | Golden, CO |  | 14d |
 | **Axos Bank** | <a href="https://trylitos.com/job/70aac51f-dafa-4872-8781-79fa3a162253?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">UX Design Intern</a> | HQ - San Diego, CA |  | 14d |
@@ -857,7 +857,7 @@ Star this repo to keep it handy. An automated refresh is scheduled daily. The da
 
 ## Business, Finance and Marketing
 
-4481 open roles; the newest 200 are below. [See all 4481 Business, Finance and Marketing internships](lists/business-finance-and-marketing.md).
+4483 open roles; the newest 200 are below. [See all 4483 Business, Finance and Marketing internships](lists/business-finance-and-marketing.md).
 
 | Company | Role | Location | Pay | Posted |
 | --- | --- | --- | --- | --- |
@@ -866,8 +866,10 @@ Star this repo to keep it handy. An automated refresh is scheduled daily. The da
 | **Nintendo** | <a href="https://trylitos.com/job/537c3ab4-a3e3-4d49-ba3f-cea1c7792134?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Intern - E-Commerce Merchandising & Strategy</a> | Redmond, WA | $30/hr | today |
 | **CSG Consultants - Private Link** | <a href="https://trylitos.com/job/1d292863-cee8-41b8-b697-0b6b3295b345?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Building Inspector Intern (As-Needed - On-Site)</a> | Foster City, CA | $29-34/hr | today |
 | **David Yurman** | <a href="https://trylitos.com/job/2b57e1f8-97b5-4766-ae19-fa2182363505?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">CRM Intern</a> | New York, NY |  | today |
+| **American Fidelity** | <a href="https://trylitos.com/job/4917d420-c896-4252-aa05-2cf3008a81c5?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Employer Operations Intern</a> | Oklahoma City, Oklahoma |  | today |
 | **Plante Moran** | <a href="https://trylitos.com/job/5b2de521-4231-4539-a043-2a7c862f3dd1?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">2027 Financial Advisor Intern</a> | Detroit; Denver Tech Center |  | today |
 | **CVS Health** | <a href="https://trylitos.com/job/68c4b4c1-cd11-4daa-86a3-2809e7beccf1?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Pharmacy Intern - Grad</a> | 07503 - Virginia CVS Pharmacy, L.L.C. |  | today |
+| **UHY** | <a href="https://trylitos.com/job/8b1edc93-dc4f-4fbe-89d5-f0ad75214a0f?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">2027 Winter Audit Internship - St. Louis</a> | St. Louis Maplewood, MO |  | today |
 | **The Cigna Group** | <a href="https://trylitos.com/job/9cb69f7e-2c85-47cf-95a8-e21404d878dd?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Tax Accounting Intern - Bloomfield</a> | Bloomfield, CT |  | today |
 | **Prologis** | <a href="https://trylitos.com/job/a7f38958-23fd-4f08-ac98-aab06666dba1?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Legal Intern</a> | Denver, Colorado |  | today |
 | **Banner Health** | <a href="https://trylitos.com/job/fec18962-7b8b-410e-a98b-07f50db54e73?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Accounting and Finance Intern</a> | Remote Arizona |  | today |
@@ -1046,6 +1048,7 @@ Star this repo to keep it handy. An automated refresh is scheduled daily. The da
 | **Constellation Brands** | <a href="https://trylitos.com/job/aa83b0d2-3901-4a44-b414-5f4f001201c6?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Intern, Legal</a> | Rochester, New York |  | 1d |
 | **C.H. Robinson** | <a href="https://trylitos.com/job/aab45011-45e1-4c49-906a-29ba429ba0e5?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Customer Success Intern (Summer 2027)</a> | Chicago, IL United States of America |  | 1d |
 | **Associated Bank** | <a href="https://trylitos.com/job/ab59035a-b3cc-4b1f-9e8e-a6262fce35c7?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">2027 Corporate Intern - Audit, Year-Round</a> | US WI Remote; US MN Remote; US IL Remote |  | 1d |
+| **FHI 360** | <a href="https://trylitos.com/job/ac0e79ff-624b-43f2-92e7-233cf5af6d6d?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Communications & Learning Content Intern</a> | USA-Remote (Any) |  | 1d |
 | **Aman** | <a href="https://trylitos.com/job/af637fab-5668-4276-b3d2-e0f444ac8732?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Culinary Internship - Amangiri</a> | Amangiri - Canyon Point, United States |  | 1d |
 | **M/I Homes** | <a href="https://trylitos.com/job/b2965492-7ef3-4aa9-8eb9-3cec5c037813?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Mortgage Intern - Summer 2027</a> | Columbus, Ohio, United States |  | 1d |
 | **Badger Meter** | <a href="https://trylitos.com/job/b2fc9c14-6cca-4e7e-8207-f749b4bb328e?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Proposal Team Coordinator Intern</a> | US - WI - Milwaukee HQ |  | 1d |
@@ -1058,9 +1061,6 @@ Star this repo to keep it handy. An automated refresh is scheduled daily. The da
 | **MLSE** | <a href="https://trylitos.com/job/c7b27cf6-7b7b-41a3-8109-390eb20bec95?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Global Partnerships Media Integration Intern</a> | Toronto, Ontario |  | 1d |
 | **Banner Health** | <a href="https://trylitos.com/job/ca2db654-5bad-4dc7-8ec9-8c438a3c219c?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Pharmacist Intern</a> | Banner Desert Med Ctr (1400 S Dobson Rd) |  | 1d |
 | **Cohen & Co** | <a href="https://trylitos.com/job/ccc56bd2-a113-4838-aeab-d1a2fa2d86d9?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Assurance Intern, Spring 2028</a> | Denver, CO; Youngstown, OH; Cleveland, OH; Philadelphia, PA |  | 1d |
-| **GreatAmerica** | <a href="https://trylitos.com/job/d28b66ba-d590-4d0e-b8cf-3307f58f0f5d?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Credit Analyst Intern</a> | Cedar Rapids, IA |  | 1d |
-| **RBC** | <a href="https://trylitos.com/job/d9c17df2-f452-43d2-964a-f5b974f8b9de?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer 2027 US Wealth Management Internship</a> | Minneapolis, Minnesota, United States of America |  | 1d |
-| **Creative Artists Agency** | <a href="https://trylitos.com/job/db642bdc-b7a4-4afc-97c8-d77b8ed36c98?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">CAA ICON Owner’s Representative / Construction Project Management Intern - Summer 2027 (Salt Lake City, UT)</a> | Salt Lake City, UT |  | 1d |
 
 ## About this list
 
