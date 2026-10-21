@@ -1,7 +1,7 @@
 # Product and Design Internships: Summer 2027 and Other Terms
 
-**154 product and design internships observed in the US, Canada and remote.** Updated 2026-10-21.
-38 titles state Summer 2027. Other stated terms and incomplete or unstated terms are listed separately. Term labels come from the role title, not an audience restriction or an inferred graduation year.
+**153 product and design internships observed in the US, Canada and remote.** Updated 2026-10-21.
+35 titles state Summer 2027. Other stated terms and incomplete or unstated terms are listed separately. Term labels come from the role title, not an audience restriction or an inferred graduation year.
 
 Roles come from employers' public job boards through [Litos](https://trylitos.com/?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027). This is a dated observation of the feed. Employer availability can change after capture; confirm each role on the employer's current posting before applying. Absence from a later snapshot does not by itself confirm that a role closed. Click a role to open its Litos page, including the employer's application link.
 
@@ -9,14 +9,14 @@ Roles come from employers' public job boards through [Litos](https://trylitos.co
 
 ## Summer 2027 stated in the role title
 
-38 postings observed.
+35 postings observed.
 
 | Company | Role | Location | Pay | Posted |
 | --- | --- | --- | --- | --- |
-| **GoFundMe** | <a href="https://trylitos.com/job/b6d7bc2d-b3e5-4ddf-b987-a9a75e87c065?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">MBA Product Management Internship, Summer 2027</a> | San Francisco, CA |  | today |
 | **Roblox** | <a href="https://trylitos.com/job/07ead0f8-d854-4bf4-931d-260b934e7ca9?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">[Summer 2027] Product Design Intern</a> | San Mateo, CA, United States | $58/hr | today |
 | **Roblox** | <a href="https://trylitos.com/job/aceb69ee-29f9-4cda-82a9-1a6e7068bf32?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">[Summer 2027] Product Management Intern</a> | San Mateo, CA, United States | $62/hr | today |
-| **Woolpert** | <a href="https://trylitos.com/job/a7c3bdfe-efaa-4678-8894-8c5fbe452ae1?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Aviation Design Intern (Summer 2027)</a> | Indianapolis, IN | $23-27/hr | today |
+| **GoFundMe** | <a href="https://trylitos.com/job/b6d7bc2d-b3e5-4ddf-b987-a9a75e87c065?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">MBA Product Management Internship, Summer 2027</a> | San Francisco, CA |  | today |
+| **Woolpert** | <a href="https://trylitos.com/job/a7c3bdfe-efaa-4678-8894-8c5fbe452ae1?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Aviation Design Intern (Summer 2027)</a> | Indianapolis, IN | $23-27/hr | 1d |
 | **General Motors** | <a href="https://trylitos.com/job/4b44243c-751a-41e7-b544-a9a21bee0150?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">2027 Summer Intern - Human Interface Design</a> | Warren, Michigan, United States of America; Pasadena Design Studio - Pasadena Design Studio - Bldg. 3 |  | 5d |
 | **GlobalFoundries** | <a href="https://trylitos.com/job/f8d4e2a9-9e8b-4f44-a62e-4400923822f1?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Foundation IP Design Verification Intern (Summer 2027)</a> | USA - California - Santa Clara |  | 5d |
 | **Blue Origin** | <a href="https://trylitos.com/job/27d088b2-b5d9-4cfd-802e-1576807e5599?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer 2027 Terawave Product Management Internship - MBA</a> | Kent, WA; Greater Seattle Area |  | 6d |
@@ -25,9 +25,8 @@ Roles come from employers' public job boards through [Litos](https://trylitos.co
 | **P&G** | <a href="https://trylitos.com/job/9ffeea89-a2bb-4067-9b6a-b3cb08762fc8?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Design Co-op Summer 2027</a> | CINCINNATI GENERAL OFFICES |  | 6d |
 | **NVIDIA** | <a href="https://trylitos.com/job/c5a7bb13-ed0c-4060-ba63-04009e27e65f?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Product Management MBA Intern, Laptop - Summer 2027</a> | US, CA, Santa Clara |  | 6d |
 | **GE Vernova** | <a href="https://trylitos.com/job/ea082c04-2f10-4518-9f3f-1c78ab9c13df?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">GE Vernova - SCS Product Design Internship - Summer 2027</a> | Bellevue |  | 7d |
-| **DoorDash USA** | <a href="https://trylitos.com/job/fbcde46c-8307-40d6-9fd0-9d9a760d8b24?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Product Design, Intern (Summer 2027)</a> | San Francisco, CA; New York, NY | $105k-155k/yr | 8d |
+| **DoorDash USA** | <a href="https://trylitos.com/job/fbcde46c-8307-40d6-9fd0-9d9a760d8b24?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Product Design, Intern (Summer 2027)</a> | San Francisco, CA; New York, NY | $105k-155k/yr | 9d |
 | **NVIDIA** | <a href="https://trylitos.com/job/7fc8244c-dac4-4323-9382-2603c6f239fa?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">PCIe Design Verification Intern - Summer 2027</a> | US, TX, Austin |  | 9d |
-| **Medline** | <a href="https://trylitos.com/job/eaf98d20-67ea-43aa-97b2-69dce3001318?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Product Management Intern - Summer 2027</a> | Northfield, Illinois; Chicago, Illinois; University Recruiting |  | 9d |
 | **Medline** | <a href="https://trylitos.com/job/640a5313-a010-49e6-967b-fb3f85719950?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">MBA Intern, Product Management - Summer 2027</a> | Northfield, Illinois; Chicago, Illinois; University Recruiting |  | 12d |
 | **Manulife** | <a href="https://trylitos.com/job/207a2102-d7d1-4e81-bf19-e75a413e22e7?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer Intern 2027 - Product Management & Risk Technology</a> | Toronto, Ontario |  | 13d |
 | **Muon Space** | <a href="https://trylitos.com/job/d204b779-bf1a-476b-b7d4-27149ecbf60b?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Harness Design Intern (Summer 2027)</a> | San Jose, CA |  | 18d |
@@ -44,9 +43,7 @@ Roles come from employers' public job boards through [Litos](https://trylitos.co
 | **AspenTech** | <a href="https://trylitos.com/job/471beb13-51ed-4536-9acd-c06d1b4b41b6?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Product Owner Intern - Product Management - Summer 2027</a> | Bedford, Massachusetts; Houston |  | 1mo |
 | **Illinois Tool Works** | <a href="https://trylitos.com/job/b2c65e01-0c60-466a-b73d-813e06068557?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Product Management Intern - Summer 2027</a> | Troy - 101 Trade Sq E |  | 1mo |
 | **HNTB** | <a href="https://trylitos.com/job/d69981dc-1104-4d26-be87-f990214188ce?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Graphic Design Intern - Summer 2027</a> | Tampa, FL; Tallahassee, FL |  | 1mo |
-| **Meijer** | <a href="https://trylitos.com/job/95aef445-2867-4c8c-9256-e742c597675a?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Retail Design Intern- Summer 2027</a> | Grand Rapids, MI |  | 1mo |
 | **Oshkosh Corporation** | <a href="https://trylitos.com/job/b5135e43-cb86-4ba4-9e3a-1a978c9a51d7?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Product Management Intern (Summer 2027)</a> | Appleton, Wisconsin, United States |  | 1mo |
-| **Johns Manville** | <a href="https://trylitos.com/job/34d16682-6a87-4223-8fc8-2f518fc8f6c9?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Product Management Intern- Summer 2027</a> | Denver CO WHQ |  | 1mo |
 | **Uline** | <a href="https://trylitos.com/job/c4d32360-51f0-40c5-b937-1755d6133739?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">UX Design Internship - Summer 2027</a> | Pleasant Prairie, WI; Milwaukee, WI; Waukegan, IL; Glenview, IL; Kenosha, WI |  | 1mo |
 | **HNTB** | <a href="https://trylitos.com/job/b57ac850-33b9-4bf1-8259-5611a0ed7f72?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Design Build Intern Technician - Summer 2027</a> | Kansas City, MO |  | 1mo |
 | **Chamberlain** | <a href="https://trylitos.com/job/abe8a9ec-7ae4-49ce-814a-ac03f0ba87b6?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Intern, Community Product Management (Summer 2027)</a> | Oak Brook, IL |  | 2mo |
@@ -66,7 +63,7 @@ Roles come from employers' public job boards through [Litos](https://trylitos.co
 | **Sanofi** | <a href="https://trylitos.com/job/28bac39a-3fef-4541-942a-0ea2ae5b1f50?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">2027 Spring Co-op Virology NA - Global Antigen Design, Waltham, MA</a> | Waltham, MA |  | 6d |
 | **NVIDIA** | <a href="https://trylitos.com/job/86bfa837-6f43-46cf-b589-8e963ff7d151?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">PCIe Design Verification Intern - Spring 2027</a> | US, CA, Santa Clara |  | 9d |
 | **Nelnet** | <a href="https://trylitos.com/job/a420a4b4-9db4-48e5-9dac-41d8eb86e504?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Intern - UX/UI Designer - Starting Spring 2027</a> | Madison, WI; Lincoln - Nelnet Center; Centennial, CO |  | 12d |
-| **Studio Museum in Harlem** | <a href="https://trylitos.com/job/aedfecbc-927d-4584-9731-2fc4a61efb5f?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Spring 2027 Graphic Design Intern</a> | New York, NY |  | 13d |
+| **Studio Museum in Harlem** | <a href="https://trylitos.com/job/aedfecbc-927d-4584-9731-2fc4a61efb5f?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Spring 2027 Graphic Design Intern</a> | New York, NY |  | 14d |
 | **Manulife** | <a href="https://trylitos.com/job/507e9262-33fe-4105-82ee-2d8f7c5d03e5?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Winter Co-op 2027 - Product Designer (UX/UI/HCI)</a> | Toronto, Ontario; Waterloo, Ontario |  | 16d |
 | **Rush Street Interactive** | <a href="https://trylitos.com/job/b6be616a-816f-439a-88ff-efc3da2dee6a?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Graphic Design Internship- Spring 2027</a> | USA - Remote | $16/hr | 18d |
 | **Nelnet** | <a href="https://trylitos.com/job/c776e37a-a812-4dac-9ea2-13da4d7ac777?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Intern - Instructional Design and Training Development - Starting Spring 2027</a> | Lincoln, NE |  | 23d |
@@ -81,13 +78,16 @@ Roles come from employers' public job boards through [Litos](https://trylitos.co
 
 ## Term incomplete or not stated
 
-96 postings observed.
+98 postings observed.
 
 | Company | Role | Location | Pay | Posted |
 | --- | --- | --- | --- | --- |
 | **SK hynix memory solutions America Inc.** | <a href="https://trylitos.com/job/8bd66457-d569-455b-9ab2-d13f123cf333?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">ASIC Design Intern</a> | San Jose |  | today |
-| **Woolpert** | <a href="https://trylitos.com/job/91aa47cd-f6e4-4b42-9220-b1cf5d898c4b?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Aviation Design Intern - Expression of Interest</a> | Salt Lake City, UT |  | today |
+| **Woolpert** | <a href="https://trylitos.com/job/91aa47cd-f6e4-4b42-9220-b1cf5d898c4b?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Aviation Design Intern - Expression of Interest</a> | Salt Lake City, UT |  | 1d |
 | **Xcel Energy** | <a href="https://trylitos.com/job/523922d8-93f1-4727-a9c8-e2d726fd5917?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Electric Utility Substation Design Intern- CO</a> | Denver, CO, 80205 |  | 1d |
+| **Intel** | <a href="https://trylitos.com/job/d5027211-1db2-4686-9ac0-a36bbcb00213?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Design Verification Graduate Intern 2027</a> | US, Colorado, Fort Collins; US, California, Santa Clara |  | 1d |
+| **Zillow** | <a href="https://trylitos.com/job/f7c48bb0-dafa-415e-8e99-660fbd60bdac?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Product Design Intern</a> | Seattle-WA-2nd Ave |  | 1d |
+| **lindtspruengli** | <a href="https://trylitos.com/job/3052dff9-b82c-4d4c-b935-0d4afa97fa5d?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Digital Designer Intern</a> | Stratham, New Hampshire |  | 2d |
 | **Trimble** | <a href="https://trylitos.com/job/64ecba2a-5a19-44bb-a65c-8eb763814bf6?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Product Management Intern</a> | US - CO, Westminster; US - CA, San Diego |  | 2d |
 | **Trimble** | <a href="https://trylitos.com/job/76fa35ed-d668-440d-ae37-0c489d7fa458?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Agriculture Product Management Intern</a> | US - CO, Westminster |  | 2d |
 | **Micron** | <a href="https://trylitos.com/job/a0eeeb8c-0d27-4cd3-8cc4-4078bb2f31ca?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Intern - ASIC Digital Design</a> | Minneapolis, MN |  | 2d |
@@ -117,7 +117,7 @@ Roles come from employers' public job boards through [Litos](https://trylitos.co
 | **Landor** | <a href="https://trylitos.com/job/64b9bf52-f042-43ed-93fb-512a5bde363f?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Next Gen Design Intern</a> | Cincinnati |  | 12d |
 | **American Electric Power** | <a href="https://trylitos.com/job/c0e6c5b6-3c69-4a82-a16b-a0d29908430e?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">User Experience Design Intern</a> | Columbus, OH |  | 13d |
 | **Aptiv** | <a href="https://trylitos.com/job/cf1669a0-3881-497d-9e24-b1d541bd25a5?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Multimedia Design Intern</a> | Troy, MI - USA |  | 13d |
-| **Advanced Space** | <a href="https://trylitos.com/job/e6f39433-8995-4f8d-9101-4ff90ae4ffd6?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">2027 Mission Design Summer Internship</a> | Westminster, CO |  | 13d |
+| **Advanced Space** | <a href="https://trylitos.com/job/e6f39433-8995-4f8d-9101-4ff90ae4ffd6?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">2027 Mission Design Summer Internship</a> | Westminster, CO |  | 14d |
 | **Copart** | <a href="https://trylitos.com/job/2ebf2f37-63e4-469a-a1f9-89389386fcba?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">UI/UX Designer Intern - IT</a> | Dallas, TX - Headquarters |  | 14d |
 | **Allegion** | <a href="https://trylitos.com/job/601c4cb2-746d-48bb-a567-2e6690247ff0?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer Intern - User Experience (UX)</a> | Golden, CO |  | 15d |
 | **Axos Bank** | <a href="https://trylitos.com/job/70aac51f-dafa-4872-8781-79fa3a162253?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">UX Design Intern</a> | HQ - San Diego, CA |  | 15d |
@@ -141,9 +141,9 @@ Roles come from employers' public job boards through [Litos](https://trylitos.co
 | **Mariani Enterprises** | <a href="https://trylitos.com/job/faf3e3f3-972e-4f77-84e8-fc96d00e9ffd?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Landscape Design Internship</a> | IL, Highland Park |  | 26d |
 | **SWIB** | <a href="https://trylitos.com/job/204ee754-f813-4549-8f8e-44450d1ba33c?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">UI/UX Intern</a> | Madison Wisconsin |  | 27d |
 | **Semtech** | <a href="https://trylitos.com/job/e42a4e54-91db-4de5-b155-fa7caf4d6369?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Analog Design Intern</a> | CAN - Ottawa, ON |  | 27d |
-| **Martin Brûlé Studio** | <a href="https://trylitos.com/job/67815cb5-3475-4577-8741-057e44ba1637?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Internship Designer, New York Office</a> | New York, NY |  | 27d |
+| **Martin Brûlé Studio** | <a href="https://trylitos.com/job/67815cb5-3475-4577-8741-057e44ba1637?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Internship Designer, New York Office</a> | New York, NY |  | 28d |
 | **Zekelman Industries** | <a href="https://trylitos.com/job/d054a8bb-c21b-4ebe-9f7c-de477a5c2684?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Intern, Architectural Designer</a> | Troy, MI |  | 28d |
-| **UDig** | <a href="https://trylitos.com/job/12af4942-352b-4393-984f-79bf19232740?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Design Intern</a> | Nashville, TN or Richmond, VA (Hybrid) | $25/hr | 28d |
+| **UDig** | <a href="https://trylitos.com/job/12af4942-352b-4393-984f-79bf19232740?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Design Intern</a> | Nashville, TN or Richmond, VA (Hybrid) | $25/hr | 29d |
 | **Clearwater Analytics** | <a href="https://trylitos.com/job/2b19f257-9177-4827-84cf-4703e43a98dc?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">UX/UI/Technical Content Intern</a> | Office - New York |  | 29d |
 | **GE HealthCare** | <a href="https://trylitos.com/job/3ab9cf3e-397c-4bc7-9282-001379454253?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Digital Design Intern</a> | Madison |  | 1mo |
 | **Clearwater Analytics** | <a href="https://trylitos.com/job/d12e2046-5fa0-470f-a7e0-6fca9231fa5b?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Product Management Intern</a> | Office - New York |  | 1mo |
@@ -160,7 +160,6 @@ Roles come from employers' public job boards through [Litos](https://trylitos.co
 | **Blue Robotics** | <a href="https://trylitos.com/job/f6645b8d-6d8f-4bfc-abe5-66123874d36c?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Electronics Design Co-op (Jan 2027)</a> | Victoria, Canada |  | 1mo |
 | **Embry-Riddle Aeronautical University** | <a href="https://trylitos.com/job/218ceae3-e538-4ee2-a3f6-cf475ca7f290?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Instructional Design and Development Intern</a> | Remote - United States |  | 1mo |
 | **Research Foundation of CUNY** | <a href="https://trylitos.com/job/70a0930d-ef98-47ac-932d-41dc854205a6?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Project Design and Construction Management Intern</a> | New York, NY |  | 1mo |
-| **Entegris** | <a href="https://trylitos.com/job/a292f1e5-2f5a-4600-9fef-23e1193a8643?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Designer/Drafter Co-Op</a> | San Luis Obispo, CA |  | 1mo |
 | **Schreiber Foods** | <a href="https://trylitos.com/job/11ab3ac7-985e-46ba-bc0c-e68ac0ce6fb1?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Creative Design Intern - year round - Green Bay, WI</a> | Green Bay, WI |  | 1mo |
 | **Allegion** | <a href="https://trylitos.com/job/84797bb1-7831-4266-94dc-8573cea1c2ac?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer Intern, User Experience (UX) Research</a> | Carmel, IN |  | 1mo |
 | **cenhud** | <a href="https://trylitos.com/job/c09d6a8b-fbfa-4096-a64c-328e751c0bb1?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Graphic Design, Video Production & Multimedia Internship</a> | Poughkeepsie |  | 1mo |
