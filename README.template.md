@@ -1,6 +1,8 @@
-# Summer 2027 Internships
+# Internships: Summer 2027 and Other Terms
 
-**{{TOTAL}} internships observed at {{COMPANIES}} companies in the US, Canada and remote.** Updated {{UPDATED}}.
+**{{SUMMER_TOTAL}} postings state Summer 2027 in the role title.** {{TOTAL}} internships and co-ops were observed across all terms at {{COMPANIES}} companies in the US, Canada and remote. Updated {{UPDATED}}.
+
+Each field list separates Summer 2027 titles, other stated terms, and incomplete or unstated terms. Year-only and conflicting terms stay in the uncertainty section. These are title labels, not confirmed start dates or eligibility promises.
 
 Roles come from employers' public job boards through [Litos](https://trylitos.com/?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027). This is a dated observation of the feed. Employer availability can change after capture.
 
@@ -22,7 +24,7 @@ Star this repo to keep it handy. An automated refresh is scheduled daily. The da
 ## About this list
 
 - **Where the roles come from:** employers' public applicant tracking system boards, read by the Litos job monitor. The daily scheduled workflow runs [`scripts/refresh.mjs`](scripts/refresh.mjs), which builds this page and its history from one captured feed generation.
-- **What is included:** roles whose title says intern, internship or co-op, with supported US or Canadian location evidence. Remote roles require that geographic evidence too; bare remote and unresolved locations are omitted. Each row uses one individual posting's own location, application and pay fields. The most recently posted eligible individual is selected per employer and title, with ID breaking date ties. A role must have been posted, and first seen by Litos, within the last 120 days; missing posting dates are shown without an age.
+- **What is included:** roles whose title says intern, internship or co-op outside a recognized former-intern audience restriction, with supported US or Canadian location evidence. A full-time role does not become an internship because it is open only to former interns. Remote roles require geographic evidence too; bare remote and unresolved locations are omitted. Each row uses one individual posting's own location, application and pay fields. The most recently posted eligible individual is selected per employer and title, with ID breaking date ties. A role must have been posted, and first seen by Litos, within the last 120 days; missing posting dates are shown without an age. Historical feed totals remain feed observations and are not Summer 2027 totals.
 - **Open data:** [`data/internship-lifespan.csv`](data/internship-lifespan.csv) records eligible internship observations from the Litos feed with the first and last day each was observed, and [`data/daily-totals.csv`](data/daily-totals.csv) records the feed's daily totals. List and history publish together only after the captured generation reconciles. [`data/export-generation.json`](data/export-generation.json) records its generation, capture time and counts; older daily-total rows predate this provenance metadata. The history renderer is [`scripts/snapshot.mjs`](scripts/snapshot.mjs). They record when this feed observed each posting, not confirmed employer opening or closing times. The legacy `internships_closed_since_last_run` column counts previously observed rows absent from a later feed pull; it does not independently confirm employer closure. A failed refresh keeps the previous published snapshot. Free to reuse under CC BY 4.0 with a link back to this repo.
 - **Found a closed role or a mistake?** [Open an issue](../../issues) with the role and employer link for investigation.
 
