@@ -8,6 +8,7 @@
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { loadInternshipExport } from './internship-export.mjs';
 import { eligiblePostingLocation } from './posting-location.mjs';
+import { isInternshipRole, roleTitle, partitionTerms, TERM_BUCKETS } from './posting-term.mjs';
 
 const SITE = 'https://trylitos.com';
 const UTM = 'utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027';
@@ -30,7 +31,6 @@ const fetchAll = () => [...exportArtifact.jobs].sort(comparePostings);
 
 /* ---------- which rows belong on the list ---------- */
 
-const INTERN = /\bintern(ship)?s?\b|\bco-?op\b(?!\s*city)/i;
 const NOT_A_ROLE_FOR_STUDENTS = /\brecruit(er|ing)\b|\b(senior|staff|principal|director)\b/i;
 
 /* First match wins, so order matters: "Quant Developer" is quant, and any
@@ -81,7 +81,7 @@ const all = await fetchAll();
 const seen = new Set();
 const bySection = new Map(SECTIONS.map(([name]) => [name, []]));
 for (const job of all) {
-  if (!job.apply_url || !INTERN.test(job.title) || NOT_A_ROLE_FOR_STUDENTS.test(job.title)) continue;
+  if (!job.apply_url || !isInternshipRole(job.title) || NOT_A_ROLE_FOR_STUDENTS.test(roleTitle(job.title))) continue;
   if (!eligiblePostingLocation(job)) continue;
   /* Hard age rule: the EARLIER of the posting date and the day Litos first saw it must be inside
      MAX_AGE_DAYS. posted_at alone is not enough: it is null on some boards, and Greenhouse's is
@@ -97,6 +97,7 @@ for (const job of all) {
 for (const list of bySection.values()) list.sort(comparePostings);
 
 const total = [...bySection.values()].reduce((sum, list) => sum + list.length, 0);
+const summerTotal = [...bySection.values()].reduce((sum, list) => sum + partitionTerms(list).get('summer2027').length, 0);
 const companies = new Set([...bySection.values()].flat().map(job => job.company_name)).size;
 const anchor = name => name.toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/ /g, '-');
 const updated = now.toISOString().slice(0, 10);
@@ -104,18 +105,32 @@ const updated = now.toISOString().slice(0, 10);
 const TABLE_HEAD = ['| Company | Role | Location | Pay | Posted |', '| --- | --- | --- | --- | --- |'];
 const nonEmpty = [...bySection].filter(([, list]) => list.length);
 
-/* Each section also gets its own page with every role, so a search for, say,
-   "summer 2027 finance internships" can land on a page about exactly that. */
+function termSections(list, level, previewLimit = Infinity, fullListPath) {
+  const buckets = partitionTerms(list);
+  let remaining = previewLimit;
+  return TERM_BUCKETS.flatMap(([key, label]) => {
+    const jobs = buckets.get(key);
+    const shown = jobs.slice(0, remaining);
+    remaining -= shown.length;
+    return [
+      `${'#'.repeat(level)} ${label}`,
+      '',
+      `${jobs.length} postings observed.${shown.length < jobs.length ? ` Showing ${shown.length}; [see this category's full list](${fullListPath}).` : ''}`,
+      '',
+      ...(shown.length ? [...TABLE_HEAD, ...shown.map(row), ''] : []),
+    ];
+  }).join('\n');
+}
+
+/* Existing category paths retain every eligible role, partitioned by title evidence.
+   Other terms and unknown terms never contribute to a Summer 2027 count. */
 const pagePath = name => `lists/${anchor(name)}.md`;
 const sections = nonEmpty.map(([name, list]) => [
   `## ${name}`,
   '',
-  list.length > MAX_ROWS_PER_SECTION
-    ? `${list.length} open roles; the newest ${MAX_ROWS_PER_SECTION} are below. [See all ${list.length} ${name} internships](${pagePath(name)}).`
-    : `${list.length} open role${list.length === 1 ? '' : 's'}. [Open this list on its own page](${pagePath(name)}).`,
+  `${list.length} internships observed across all terms. Up to ${MAX_ROWS_PER_SECTION} previews are grouped below, with Summer 2027 titles first. [See the full ${name} list](${pagePath(name)}).`,
   '',
-  ...TABLE_HEAD,
-  ...list.slice(0, MAX_ROWS_PER_SECTION).map(row),
+  termSections(list, 3, MAX_ROWS_PER_SECTION, pagePath(name)),
   '',
 ].join('\n'));
 
@@ -127,16 +142,16 @@ for (const file of await readdir(new URL('../lists/', import.meta.url))) {
 }
 for (const [name, list] of nonEmpty) {
   const page = [
-    `# Summer 2027 ${name} Internships`,
+    `# ${name} Internships: Summer 2027 and Other Terms`,
     '',
     `**${list.length} ${name.toLowerCase()} internships observed in the US, Canada and remote.** Updated ${updated}.`,
+    `${partitionTerms(list).get('summer2027').length} titles state Summer 2027. Other stated terms and incomplete or unstated terms are listed separately. Term labels come from the role title, not an audience restriction or an inferred graduation year.`,
     '',
     `Roles come from employers' public job boards through ${litosLink}. This is a dated observation of the feed. Employer availability can change after capture; confirm each role on the employer's current posting before applying. Absence from a later snapshot does not by itself confirm that a role closed. Click a role to open its Litos page, including the employer's application link.`,
     '',
-    `[Back to all Summer 2027 internships](../README.md)`,
+    `[Back to all internship lists](../README.md)`,
     '',
-    ...TABLE_HEAD,
-    ...list.map(row),
+    termSections(list, 2),
     '',
     `Maintained by ${litosLink}. Found a closed role or a mistake? [Open an issue](../../../issues).`,
     '',
@@ -147,6 +162,7 @@ for (const [name, list] of nonEmpty) {
 const template = await readFile(new URL('../README.template.md', import.meta.url), 'utf8');
 const readme = template
   .replace('{{TOTAL}}', String(total))
+  .replace('{{SUMMER_TOTAL}}', String(summerTotal))
   .replace('{{COMPANIES}}', String(companies))
   .replace('{{UPDATED}}', updated)
   .replace('{{TOC}}', nonEmpty.map(([name, list]) => `- [${name}](#${anchor(name)}) (${list.length}), [full list](${pagePath(name)})`).join('\n'))
