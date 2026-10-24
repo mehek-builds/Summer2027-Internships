@@ -1,7 +1,7 @@
 # Quant and Trading Internships: Summer 2027 and Other Terms
 
-**42 quant and trading internships observed in the US, Canada and remote.** Updated 2026-10-23.
-6 titles state Summer 2027. Other stated terms and incomplete or unstated terms are listed separately. Term labels come from the role title, not an audience restriction or an inferred graduation year.
+**43 quant and trading internships observed in the US, Canada and remote.** Updated 2026-10-24.
+7 titles state Summer 2027. Other stated terms and incomplete or unstated terms are listed separately. Term labels come from the role title, not an audience restriction or an inferred graduation year.
 
 Roles come from employers' public job boards through [Litos](https://trylitos.com/?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027). This is a dated observation of the feed. Employer availability can change after capture; confirm each role on the employer's current posting before applying. Absence from a later snapshot does not by itself confirm that a role closed. Click a role to open its Litos page, including the employer's application link.
 
@@ -9,15 +9,16 @@ Roles come from employers' public job boards through [Litos](https://trylitos.co
 
 ## Summer 2027 stated in the role title
 
-6 postings observed.
+7 postings observed.
 
 | Company | Role | Location | Pay | Posted |
 | --- | --- | --- | --- | --- |
+| **FanDuel** | <a href="https://trylitos.com/job/6fd7fb99-b406-4155-853c-9a63db38caa3?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Sports Trader Intern - Summer 2027</a> | Jersey City, New Jersey, United States |  | today |
 | **Point72** | <a href="https://trylitos.com/job/f4e044ec-2a86-4040-98a2-7d34f74e2437?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer 2027 Quantitative Research Internship</a> | New York |  | 1d |
-| **FanDuel** | <a href="https://trylitos.com/job/6fd7fb99-b406-4155-853c-9a63db38caa3?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Sports Trader Intern - Summer 2027</a> | Jersey City, New Jersey, United States |  | 2d |
-| **PDT Partners** | <a href="https://trylitos.com/job/9b1b8daf-d7d6-44c2-8b7c-6246fd29d7ee?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer 2027 Quantitative Research Intern - PhD/Postdoctoral</a> | New York, NY |  | 3d |
-| **SouthState Bank** | <a href="https://trylitos.com/job/d61ec241-7cff-4567-8536-cb1a77116e1a?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer 2027 Quantitative Intern (Remote)</a> | Remote Opportunity - VA, NC, SC, GA, FL, AL, TX, & CO |  | 24d |
-| **Gelber Group** | <a href="https://trylitos.com/job/1667064c-a544-4398-a94d-30d6001ad41e?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Discretionary Trading Internship - Summer 2027</a> | Chicago, IL |  | 27d |
+| **Northwestern Mutual** | <a href="https://trylitos.com/job/de4680e9-0a69-45e1-9588-ec3c7ce5f3c4?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Public Investments Quantitative Analyst Intern, Summer 2027</a> | Milwaukee, WI Corporate |  | 3d |
+| **PDT Partners** | <a href="https://trylitos.com/job/9b1b8daf-d7d6-44c2-8b7c-6246fd29d7ee?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer 2027 Quantitative Research Intern - PhD/Postdoctoral</a> | New York, NY |  | 4d |
+| **SouthState Bank** | <a href="https://trylitos.com/job/d61ec241-7cff-4567-8536-cb1a77116e1a?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer 2027 Quantitative Intern (Remote)</a> | Remote Opportunity - VA, NC, SC, GA, FL, AL, TX, & CO |  | 25d |
+| **Gelber Group** | <a href="https://trylitos.com/job/1667064c-a544-4398-a94d-30d6001ad41e?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Discretionary Trading Internship - Summer 2027</a> | Chicago, IL |  | 28d |
 | **Neuberger Berman** | <a href="https://trylitos.com/job/e2955852-7a27-4a7a-9de4-c096c9b25ebd?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative 2027 Summer Intern</a> | New York, NY |  | 1mo |
 
 ## Other stated terms
@@ -35,18 +36,18 @@ Roles come from employers' public job boards through [Litos](https://trylitos.co
 | **Point72** | <a href="https://trylitos.com/job/c90ab4cc-0710-42d2-a0ec-e23e199b5587?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Research Intern</a> | New York, Seattle |  | 1d |
 | **Point72** | <a href="https://trylitos.com/job/d3563487-ba3b-4ec3-8d33-f4d16a6f1387?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Software Developer Intern</a> | New York, London, or Paris |  | 1d |
 | **Point72** | <a href="https://trylitos.com/job/fc76f34c-f098-4109-9475-dd7f4efa1753?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Researcher Intern</a> | New York |  | 1d |
-| **DRW** | <a href="https://trylitos.com/job/2af3bff6-b384-45d7-872f-b8cc3eb2845e?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Trading Analyst Intern</a> | Chicago, Illinois |  | 2d |
-| **CIBC** | <a href="https://trylitos.com/job/d1ee44c5-10cf-4f4e-93ee-394e91cad0e4?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">AI and Quantum Scientist Co-op</a> | Toronto, ON |  | 2d |
-| **Invesco** | <a href="https://trylitos.com/job/0e8494ee-b0ac-4339-8d57-953625eac1c4?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Intern - Portfolio Engineering and Analytics</a> | Boston, Massachusetts |  | 7d |
-| **Invesco** | <a href="https://trylitos.com/job/13429f9a-8393-4c80-8ae2-d0b5bbfc95a1?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Strategies Research Intern</a> | New York, New York |  | 7d |
-| **Seven Research** | <a href="https://trylitos.com/job/a484240a-4bcb-4420-89d8-8bab3560c38d?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Researcher - Summer Intern</a> | New York |  | 9d |
-| **Monarch Quantum** | <a href="https://trylitos.com/job/63806e65-7684-464f-a20e-c32664b5b3f5?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">2027 Monarch Quantum Summer Internship Program</a> | San Diego, California, United States / Boston, Massachusetts, United States |  | 9d |
-| **DRW - University Jobs** | <a href="https://trylitos.com/job/4b945f9e-fd80-4f0e-ab01-4a8aee75e887?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Trading Analyst Intern - IAP Winternship (MIT Students Only)</a> | Chicago, IL |  | 10d |
-| **ABA** | <a href="https://trylitos.com/job/d95ef563-5da2-4258-b8e9-83ba09d63da0?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Intern, Quantitative Research</a> | US DC Main Office |  | 21d |
-| **QuEra Computing, Inc.** | <a href="https://trylitos.com/job/da21e078-5149-4943-9186-7b35f0000a60?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Internship - Quantum Error Correction Research</a> | Boston, MA, USA |  | 21d |
-| **Schonfeld** | <a href="https://trylitos.com/job/0db03699-4899-4936-8dad-79365e53fed7?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">2027 PhD Quantitative Research Intern</a> | New York, New York, United States |  | 23d |
-| **QuEra Computing, Inc.** | <a href="https://trylitos.com/job/084019be-98b3-4f1d-865f-af28cf0584ad?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Internship - Quantum Applications Research</a> | Boston, MA, USA |  | 25d |
-| **DRW** | <a href="https://trylitos.com/job/83fb7051-4d09-4a16-9ab1-276e3c954c16?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Research Intern</a> | Chicago, New York City |  | 29d |
+| **DRW** | <a href="https://trylitos.com/job/2af3bff6-b384-45d7-872f-b8cc3eb2845e?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Trading Analyst Intern</a> | Chicago, Illinois |  | 3d |
+| **CIBC** | <a href="https://trylitos.com/job/d1ee44c5-10cf-4f4e-93ee-394e91cad0e4?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">AI and Quantum Scientist Co-op</a> | Toronto, ON |  | 3d |
+| **Invesco** | <a href="https://trylitos.com/job/0e8494ee-b0ac-4339-8d57-953625eac1c4?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Intern - Portfolio Engineering and Analytics</a> | Boston, Massachusetts |  | 8d |
+| **Invesco** | <a href="https://trylitos.com/job/13429f9a-8393-4c80-8ae2-d0b5bbfc95a1?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Strategies Research Intern</a> | New York, New York |  | 8d |
+| **Seven Research** | <a href="https://trylitos.com/job/a484240a-4bcb-4420-89d8-8bab3560c38d?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Researcher - Summer Intern</a> | New York |  | 10d |
+| **Monarch Quantum** | <a href="https://trylitos.com/job/63806e65-7684-464f-a20e-c32664b5b3f5?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">2027 Monarch Quantum Summer Internship Program</a> | San Diego, California, United States / Boston, Massachusetts, United States |  | 10d |
+| **DRW - University Jobs** | <a href="https://trylitos.com/job/4b945f9e-fd80-4f0e-ab01-4a8aee75e887?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Trading Analyst Intern - IAP Winternship (MIT Students Only)</a> | Chicago, IL |  | 11d |
+| **ABA** | <a href="https://trylitos.com/job/d95ef563-5da2-4258-b8e9-83ba09d63da0?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Intern, Quantitative Research</a> | US DC Main Office |  | 22d |
+| **QuEra Computing, Inc.** | <a href="https://trylitos.com/job/da21e078-5149-4943-9186-7b35f0000a60?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Internship - Quantum Error Correction Research</a> | Boston, MA, USA |  | 22d |
+| **Schonfeld** | <a href="https://trylitos.com/job/0db03699-4899-4936-8dad-79365e53fed7?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">2027 PhD Quantitative Research Intern</a> | New York, New York, United States |  | 24d |
+| **QuEra Computing, Inc.** | <a href="https://trylitos.com/job/084019be-98b3-4f1d-865f-af28cf0584ad?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Internship - Quantum Applications Research</a> | Boston, MA, USA |  | 26d |
+| **DRW** | <a href="https://trylitos.com/job/83fb7051-4d09-4a16-9ab1-276e3c954c16?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Research Intern</a> | Chicago, New York City |  | 1mo |
 | **The Options Clearing Corporation** | <a href="https://trylitos.com/job/011093d5-9090-421f-881f-04636d65e88a?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Summer Intern - Quantitative Risk Management</a> | Chicago - 125 S Franklin |  | 1mo |
 | **American Century** | <a href="https://trylitos.com/job/c1c3ffa9-7abf-4017-9fe1-956e206d5cdd?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">Quantitative Research Intern</a> | Kansas City, Missouri; New York, New York |  | 1mo |
 | **BlackRock** | <a href="https://trylitos.com/job/19fe6e3b-72b3-44e3-9eab-cc1a7eb46ed6?utm_source=github&utm_medium=internship_list&utm_campaign=summer_2027">2027 Quantitative Masters Internship Program - Investments - Global Capital Markets - New York</a> | New York, NY |  | 1mo |
