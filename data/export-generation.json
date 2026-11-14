@@ -1,14 +1,14 @@
 {
-  "generation": "65933151-553f-4cf5-8b45-6ab173e9dea0",
-  "as_of": "2026-11-13T19:13:48.752Z",
-  "total": 4876,
-  "grouped_total": 4253,
+  "generation": "38acf872-d2d2-47fb-b615-5a01be1b125c",
+  "as_of": "2026-11-14T17:40:40.196Z",
+  "total": 4598,
+  "grouped_total": 4015,
   "totals": {
-    "all": 153766,
-    "us": 92956,
-    "us_sponsor_only": 35906,
-    "internship": 4876,
-    "internship_sponsor_only": 1128,
-    "internship_us": 2973
+    "all": 143307,
+    "us": 84744,
+    "us_sponsor_only": 32195,
+    "internship": 4598,
+    "internship_sponsor_only": 1019,
+    "internship_us": 2777
   }
 }
